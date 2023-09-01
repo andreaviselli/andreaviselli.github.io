@@ -53,3 +53,8 @@ languageName = "English"
   [markup.highlight]
     # false is a necessary configuration (https://github.com/dillonzq/LoveIt/issues/158)
     noClasses = false
+
+# Page global config 
+  [params.social]
+    GitHub = "https://github.com/andreaviselli"
+    Linkedin = "https://www.linkedin.com/in/andreaviselli/"
