@@ -4,7 +4,7 @@ baseURL = "http://example.org/"
 theme = "LoveIt"
 
 # website title
-title = "My New Hugo Site"
+title = "Andrea Viselli"
 
 # language code ["en", "zh-CN", "fr", "pl", ...]
 languageCode = "en"
@@ -13,8 +13,8 @@ languageName = "English"
 
 # Author config
 [author]
-  name = "xxxx"
-  email = ""
+  name = "Andrea Viselli"
+  email = "viselliandrea@gmail.com"
   link = ""
 
 # Menu config
@@ -56,5 +56,32 @@ languageName = "English"
 
 # Page global config 
   [params.social]
-    GitHub = "https://github.com/andreaviselli"
-    Linkedin = "https://www.linkedin.com/in/andreaviselli/"
+    GitHub = "andreaviselli"
+    Linkedin = "andreaviselli"
+
+# Footer config
+  # 页面底部信息配置
+  [params.footer]
+    enable = true
+    # Custom content (HTML format is supported)
+    # 自定义内容 (支持 HTML 格式)
+    custom = ""
+    # whether to show Hugo and theme info
+    # 是否显示 Hugo 和主题信息
+    hugo = false
+    # whether to show copyright info
+    # 是否显示版权信息
+    copyright = true
+    # whether to show the author
+    # 是否显示作者
+    author = true
+    # site creation time
+    # 网站创立年份
+    since = 2022
+    # ICP info only in China (HTML format is supported)
+    # ICP 备案信息，仅在中国使用 (支持 HTML 格式)
+    icp = ""
+    # license info (HTML format is supported)
+    # 许可协议信息 (支持 HTML 格式)
+    license= ""
+
