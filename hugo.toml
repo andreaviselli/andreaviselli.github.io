@@ -29,7 +29,7 @@ languageName = "English"
     name = "Blog"
     url = "/posts/"
     # title will be shown when you hover on this menu link
-    title = "Blog"
+    title = ""
   [[menu.main]]
     weight = 2
     identifier = "papers"
@@ -37,15 +37,15 @@ languageName = "English"
     post = ""
     name = "Papers"
     url = "/papers/"
-    title = "Papers"
+    title = ""
   [[menu.main]]
     weight = 3
     identifier = "about"
     pre = ""
     post = ""
     name = "About"
-    url = "about.md"
-    title = "About"
+    url = "/about/"
+    title = ""
 
 # Markup related configuration in Hugo
 [markup]
@@ -231,7 +231,7 @@ languageName = "English"
       gravatarEmail = ""
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = "images/img0.jpg"
+      avatarURL = "images/mypic.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
       title = "Ciao! I am Andrea Viselli ✌️🤓"
