@@ -32,14 +32,22 @@ languageName = "English"
     title = ""
   [[menu.main]]
     weight = 2
-    identifier = "papers"
+    identifier = "publications"
     pre = ""
     post = ""
-    name = "Papers"
-    url = "/papers/"
+    name = "Publications"
+    url = "/publications/"
     title = ""
   [[menu.main]]
     weight = 3
+    identifier = "workingpapers"
+    pre = ""
+    post = ""
+    name = "Working papers"
+    url = "/workingpapers/"
+    title = ""
+  [[menu.main]]
+    weight = 4
     identifier = "about"
     pre = ""
     post = ""
@@ -101,7 +109,7 @@ languageName = "English"
       logo = ""
       # title name
       # 标题名称
-      name = "Home"
+      name = "Andrea Viselli"
       # you can add extra information before the name (HTML format is supported), such as icons
       # 你可以在名称 (允许 HTML 格式) 之前添加其他信息, 例如图标
       pre = ""
@@ -223,7 +231,7 @@ languageName = "English"
     # RSS 文章数目
     rss = 10
     # Home page profile
-    # 主页个人信息
+    # 主页个人信息h
     [params.home.profile]
       enable = true
       # Gravatar Email for preferred avatar in home page
@@ -231,10 +239,10 @@ languageName = "English"
       gravatarEmail = ""
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = "images/mypic.png"
+      avatarURL = "images/mypic0.jpg"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
-      title = "Ciao! I am Andrea Viselli ✌️🤓"
+      title = ""
       # subtitle shown in home page (HTML format is supported)
       # 主页显示的网站副标题 (允许 HTML 格式)
       subtitle = "Welcome to my personal page"
