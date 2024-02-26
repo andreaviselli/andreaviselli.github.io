@@ -536,7 +536,7 @@ languageName = "English"
   # Site verification code for Google/Bing/Yandex/Pinterest/Baidu
   # 网站验证代码，用于 Google/Bing/Yandex/Pinterest/Baidu
   [params.verification]
-    google = "googled5b0d21535c44df0"
+    google = ""
     bing = ""
     yandex = ""
     pinterest = ""
