@@ -84,7 +84,7 @@ languageName = "English"
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
   # 网站标题, 用于 Open Graph 和 Twitter Cards
-  title = "Andrea Viselli"
+  title = ""
   # website description for RSS, SEO, Open Graph and Twitter Cards
   # 网站描述, 用于 RSS, SEO, Open Graph 和 Twitter Cards
   description = "Welcome to my personal page."
@@ -118,7 +118,7 @@ languageName = "English"
       post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
-      typeit = false
+      typeit = true
 
   # Footer config
   # 页面底部信息配置
@@ -267,7 +267,7 @@ languageName = "English"
   [params.social]
   GitHub = "andreaviselli"
   Linkedin = "andreaviselli"
-  email = "andrea.viselli01@universitadipavia.it"
+  email = "andrea.viselli@unimi.it"
 
   # Page global config
   # 文章页面全局配置
