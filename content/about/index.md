@@ -12,4 +12,4 @@ I am interested in econometric methods, both in the frequentist and Bayesian rea
 
 I am exploring machine learning methods and, in general, applications of AI to economics. In particular, I am working with large language models (LLM) for content analysis and macroeconomic forecasting, and with probabilistic programming languages (PPM) for automatic inference.
 
-You can download my [curriculum vitae](/AcademicCV_AndreaViselli_Updated09022024.pdf).
+You can download my [curriculum vitae](/AcademicCV_AndreaViselli_Updated21052024.pdf).
