@@ -1,11 +1,11 @@
 ---
-title: "NEW WORKING PAPER! Comparing predictive ability in presence of instability over a very short time, with F. Iacone and L. Rossini"
+title: "Comparing predictive ability in presence of instability over a very short time, with F. Iacone and L. Rossini"
 date: 2024-05-21T09:05:38+02:00
 draft: false
 author: false
 ---
 
-I am proud to share the preliminary version of the paper *Comparing predictive ability in presence of instability over a very short time*, co-authored with my Ph.D. supervisors **Fabrizio Iacone** and **Luca Rossini**.
+I share the preliminary version of the paper *Comparing predictive ability in presence of instability over a very short time*, co-authored with my Ph.D. supervisors **Fabrizio Iacone** and **Luca Rossini**.
 
 The working paper is available [here](https://arxiv.org/abs/2405.11954).
 
