@@ -6,7 +6,7 @@ draft: false
 
 # Material
 
-30-10-2024 --- Presentation on *Forecast evaluation with panel data* [[slides](/Forecast-Evaluation-Panel-Data.pdf)].
+30-10-2024 ---  on *Forecast evaluation with panel data* [[slides](/Forecast-Evaluation-Panel-Data.pdf)].
 
 &nbsp;
 
