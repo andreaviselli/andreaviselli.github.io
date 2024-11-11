@@ -4,7 +4,7 @@ date: 2023-11-19T23:47:59+01:00
 draft: false
 ---
 
-![mypic0](images/land.jpg "A perfect moment for a walk.")
+![mypic0](images/land.jpg)
 
 I am currently a postdoctoral researcher at the [Department of Economics, Management, and Quantitative Methods](https://demm.unimi.it/it) of the University of Milan, and a Ph.D. candidate in Economics at the [University of Milan & University of Pavia](https://www.phdeconomics.unimi.it/). I expect to defend my doctoral thesis by the end of 2024.
 
