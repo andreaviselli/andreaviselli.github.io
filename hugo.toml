@@ -38,8 +38,16 @@ languageName = "English"
     name = "Publications"
     url = "/publications/"
     title = ""
-  [[menu.main]]
+    [[menu.main]]
     weight = 3
+    identifier = "itnow"
+    pre = ""
+    post = ""
+    name = "IT-NOW"
+    url = "/itnow/"
+    title = ""
+  [[menu.main]]
+    weight = 4
     identifier = "about"
     pre = ""
     post = ""

@@ -12,6 +12,6 @@ I am broadly interested in time series econometrics, forecasting, forecast evalu
 
 In a more recent project, I worked on a Bayesian Markov-switching panel data model for the European electricity markets. In am enthusiast of the potential applications of new types of data for nowcasting, in particular of datasets with mixed sampling frequencies.
 
-Feel free to contact me for any question.
+Feel free to contact me for any question, information, or collaborations at [viselliandrea@gmail.com](mailto:viselliandrea@gmail.com).
 
 You can download my [curriculum vitae](/AndreaViselli_CV_Updated_301024.pdf).
