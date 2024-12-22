@@ -7,9 +7,7 @@ author: false
 
 &nbsp;
 
-I share the preliminary version of the paper *Comparing predictive ability in presence of instability over a very short time*, co-authored with my Ph.D. advisors **Fabrizio Iacone** and **Luca Rossini**.
-
-The working paper is available [here](https://arxiv.org/abs/2405.11954).
+The preliminary version of the paper *Comparing predictive ability in presence of instability over a very short time*, co-authored with my Ph.D. advisors **Fabrizio Iacone** and **Luca Rossini**, is now available [here](https://arxiv.org/abs/2405.11954).
 
 &nbsp;
 

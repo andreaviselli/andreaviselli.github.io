@@ -4,7 +4,7 @@ date: 2023-11-19T22:38:36+01:00
 draft: false
 ---
 
-# IT-Nowcast
+# IT-Nowcast (WORK IN PROGRESS)
 # A monthly real-time estimate of the Italian (2020 chain-linked) Gross Domestic Product (GDP)
 
 The estimate is updated two times each month as quarter-on-quarter and year-over-year (henceforth respectively denoted as QoQ and YoY) growth rates. More specifically, a backcast of the previous month is produced at the beginning of the month and a nowcast of the current month at the middle of the month.
@@ -20,13 +20,13 @@ More information and the historical *nowcast* series is provided at the end of t
 
 | 5% Pr. Bound | QoQ % Change | 95% Pr. Bound |
 |---------------|--------------|---------------|
-| -0.11         | 0.2          | 0.63          |
+| -0.24         | 0.07          | 0.5          |
 
 *Table 1: Prediction intervals at the 5% and 95% level and nowcasted QoQ growth rate (percentage change).*
 
 | QoQ % Change | YoY % Change | Carry Over | Level  |
 |--------------|--------------|------------|--------|
-| -0.11        | 0.63         | 0.37       | 482.691 |
+| -0.07        | 0.52         | 0.16       | 482.35 |
 
 *Table 2: Nowcasted QoQ and YoY growth rates, carry-over annual effect, and level.*
 
