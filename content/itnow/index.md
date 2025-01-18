@@ -68,6 +68,6 @@ The econometric methodology used in this report is based on the working paper, *
 
 <!--The next update will be on Friday, December 22, 2024, 10 am.-->
 
-Click [here](/ITNOW/ITNOW_History.csv) to download the historical nowcast series. Notice that the nowcasts prior to October 2024 are not provided as they are derived from an out-of-sample exercise. The latest ISTAT release can be found [here](https://www.istat.it/wp-content/uploads/2024/10/FLASH_24q3_EN.pdf). An Italian economic calendar is available [here](https://it.tradingeconomics.com/italy/calendar).
+Click [here](/ITNOW/ITNOW_History.xlsx) to download the historical nowcast series. Notice that the nowcasts prior to October 2024 are not provided as they are derived from an out-of-sample exercise. The latest ISTAT release can be found [here](https://www.istat.it/wp-content/uploads/2024/10/FLASH_24q3_EN.pdf). An Italian economic calendar is available [here](https://it.tradingeconomics.com/italy/calendar).
 
 Please, cite this report as: *IT-Nowcast: a monthly real-time estimate of the Italian GDP, A. Viselli (2024)*.
