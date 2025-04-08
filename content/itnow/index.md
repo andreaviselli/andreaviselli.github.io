@@ -67,7 +67,7 @@ The econometric methodology used in this report is based on the working paper, *
 # Historical nowcasts
 
 <!--The next update will be on Friday, December 22, 2024, 10 am.-->
-The next update will be on Saturday, April 5, 2025.
+The next update will be on Saturday, April 14, 2025.
 
 Click [here](/ITNOW/ITNOW_History.xlsx) to download the historical nowcast series. Notice that the nowcasts prior to October 2024 are not provided as they are derived from an out-of-sample exercise. The latest ISTAT release can be found [here](https://www.istat.it/wp-content/uploads/2025/01/FLASH_24q4_EN.pdf). An Italian economic calendar is available [here](https://it.tradingeconomics.com/italy/calendar).
 
