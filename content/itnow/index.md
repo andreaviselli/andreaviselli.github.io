@@ -14,7 +14,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 &nbsp;
 
-# Monthly Nowcast (Last Update: February 2025)
+# Monthly Nowcast (Last Update: March 2025)
 
 &nbsp;
 
@@ -26,7 +26,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 | QoQ % Change  (back) | QoQ % Change  (now)   |5% Pr. (now)   | 95% Pr. (now) |
 |----------------------|-----------------------|---------------|---------------|
-| -0.78                | -1.35                 | -1.67         | -0.93         |     
+| 0.12                 | 0.08                  | -0.21         | 0.46          |     
 
 *Table 1: Monthly nowcast and empirical prediction intervals at the 5% and 95% level for the QoQ GDP growth rate relative to January 2025 (see Figure 1).*
 
@@ -43,7 +43,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 | QoQ % Change | YoY % Change | Carry Over | Level  |
 |--------------|--------------|------------|--------|
-| -0.78        | -0.3         | -0.3       | 478.21 |
+| 0.09        | 0.52          | 0.52       | 483.3  |
 
 *Table 2: Nowcasted QoQ and YoY growth rates, carry-over annual effect, and level for Q4:2024 GDP (see Figure 2). Notice that the carry-over annual effect is not available on the first quarter of the year, whereas it coincides with the YoY % Change for the last quarter of the year.*
 
@@ -67,7 +67,7 @@ The econometric methodology used in this report is based on the working paper, *
 # Historical nowcasts
 
 <!--The next update will be on Friday, December 22, 2024, 10 am.-->
-The next update will be on Saturday, April 14, 2025.
+The next update will be on Monday, May 10, 2025.
 
 Click [here](/ITNOW/ITNOW_History.xlsx) to download the historical nowcast series. Notice that the nowcasts prior to October 2024 are not provided as they are derived from an out-of-sample exercise. The latest ISTAT release can be found [here](https://www.istat.it/wp-content/uploads/2025/01/FLASH_24q4_EN.pdf). An Italian economic calendar is available [here](https://it.tradingeconomics.com/italy/calendar).
 
