@@ -14,7 +14,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 &nbsp;
 
-# Monthly Nowcast (Last Update: March 2025)
+# Monthly Nowcast (Last Update: June 14, 2025)
 
 &nbsp;
 
@@ -26,9 +26,9 @@ Further details on the methodology and the historical nowcast series are availab
 
 | QoQ % Change  (back) | QoQ % Change  (now)   |5% Pr. (now)   | 95% Pr. (now) |
 |----------------------|-----------------------|---------------|---------------|
-| 0.32                 | 0.06                  | -0.26         | 0.48          |     
+| 0.27                 | 0.14                  | -0.16         | 0.55          |     
 
-*Table 1: Monthly nowcast and empirical prediction intervals at the 5% and 95% level for the QoQ GDP growth rate relative to January 2025 (see Figure 1).*
+*Table 1: Monthly nowcast and empirical prediction intervals at the 5% and 95% level for the QoQ GDP growth rate (see Figure 1).*
 
 &nbsp;
 
@@ -45,12 +45,12 @@ Further details on the methodology and the historical nowcast series are availab
 |--------------|--------------|------------|---------|
 | 0.06         | 0.28         | 0.28       | 483.82  |
 
-*Table 2: Nowcasted QoQ and YoY growth rates, carry-over annual effect, and level for Q4:2024 GDP (see Figure 2). Notice that the carry-over annual effect is not available on the first quarter of the year, whereas it coincides with the YoY % Change for the last quarter of the year.*
+*Table 2: Nowcasted QoQ and YoY growth rates, carry-over annual effect, and level for GDP (see Figure 2). Notice that the carry-over annual effect is not available on the first quarter of the year, whereas it coincides with the YoY % Change for the last quarter of the year.*
 
 &nbsp;
 
 {{< plotly json="/ITNOW/GDP_Nowcast_Error.json" height="510px" >}} 
-*Figure 3: Italian QoQ GDP growth nowcast errors in 2020 chain linked values. The latest available figure is relative to Q4:2024. Notice that, prior to the latest nowcast, we display pseudo real time nowcasts (zoom the chart for more details).*
+*Figure 3: Italian QoQ GDP growth nowcast errors in 2020 chain linked values. The latest available figure is relative to Q1:2025. Notice that, prior to the latest nowcast, we display pseudo real time nowcasts (zoom the chart for more details).*
   
 &nbsp;
 
@@ -58,7 +58,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 Nowcasting methods aim to provide the general public -— such as policymakers, media, and investors -— with real-time assessments of critical economic indicators that would otherwise be subject to significant publication delays. In brief, these methods leverage higher-frequency data to forecast indicators that are released less frequently.
 
-For example, the quarterly Italian GDP figure is published approximately one and a half months after the reference quarter. This means e.g. the Q1 figure (covering January, February, and March) is only released in mid-April; however, industrial production, which shows a strong correlation with GDP, is released monthly and can be used to nowcast GDP.
+For example, the quarterly Italian GDP figure is published approximately one and a half months after the reference quarter. This means e.g. the Q1 figure (covering January, February, and March) is only released in mid-April; however, industrial production, which shows a strong correlation with GDP, is released monthly and can be used to nowcast GDxP.
 
 The econometric methodology used in this report is based on the working paper, *Nowcast Combinations in Presence of Instabilities, A. Viselli (2024)*, which has not yet been disseminated. The code will soon be made publicly available on GitHub.
 
