@@ -10,5 +10,5 @@ draft: false
 
 - F. Ravazzolo, L. Rossini, and A. Viselli (2024), *Integration of European electricity markets in a reverse mixed-frequency panel*.
 
-- F. Iacone, L. Rossini, and A. Viselli (2024), [*Comparing predictive ability in presence of instability over a very short time*](https://arxiv.org/abs/2405.11954).
+- F. Iacone, L. Rossini, and A. Viselli (202X), [*Comparing predictive ability in presence of instability over a very short time*](https://arxiv.org/abs/2405.11954). The Econometrics Journal (Forthcoming)
 
