@@ -6,7 +6,7 @@ plotly: true
 ---
 
 # IT-Nowcast
-# A monthly real-time estimate of the Italian (2020 chain-linked) Gross Domestic Product (GDP)
+# A monthly real-time forecast of the Italian (2020 chain-linked) Gross Domestic Product (GDP)
 
 We provide monthly nowcasts and backcasts for quarter-on-quarter (QoQ) GDP growth. The backcasts revise the nowcast for the previous month. Additionally, we offer quarterly nowcasts for the level of GDP and the associated error for the GDP growth nowcast. Monthly updates occur at the end of each month, while quarterly updates are provided at the end of each quarter.
 
@@ -14,7 +14,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 &nbsp;
 
-# Monthly Nowcast (Last Update: June 14, 2025)
+# Quarterly nowcast (Last Update: July 22, 2025)
 
 &nbsp;
 
@@ -26,13 +26,13 @@ Further details on the methodology and the historical nowcast series are availab
 
 | QoQ % Change  (back) | QoQ % Change  (now)   |5% Pr. (now)   | 95% Pr. (now) |
 |----------------------|-----------------------|---------------|---------------|
-| 0.27                 | 0.14                  | -0.16         | 0.55          |     
+| 0.13                 | 0.20                  | -0.11          | 0.62          |     
 
 *Table 1: Monthly nowcast and empirical prediction intervals at the 5% and 95% level for the QoQ GDP growth rate (see Figure 1).*
 
 &nbsp;
 
-# Quarterly Nowcast (Last Update: March Q1-2025)
+# Reference quarter nowcast (Last Update: Q2-2025)
 
 &nbsp;
 
@@ -43,7 +43,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 | QoQ % Change | YoY % Change | Carry Over | Level   |
 |--------------|--------------|------------|---------|
-| 0.06         | 0.28         | 0.28       | 483.82  |
+| 0.20         | 0.67         | 0.46       | 486.15  |
 
 *Table 2: Nowcasted QoQ and YoY growth rates, carry-over annual effect, and level for GDP (see Figure 2). Notice that the carry-over annual effect is not available on the first quarter of the year, whereas it coincides with the YoY % Change for the last quarter of the year.*
 
@@ -69,8 +69,8 @@ The econometric methodology used in this report is based on the working paper, *
 <!--The next update will be on Friday, December 22, 2024, 10 am.-->
 Updates generally take place at the end of third week of the month. 
 
-The next update will be on **Monday, July 21, 2025**.
+The next update will be on **Monday, September 1, 2025**.
 
 Click [here](/ITNOW/ITNOW_History.xlsx) to download the historical nowcast series. Notice that the nowcasts prior to October 2024 are not provided as they are derived from an out-of-sample exercise. The latest ISTAT release can be found [here](https://www.istat.it/en/press-release/quarterly-national-accounts-q4-2024/). An Italian economic calendar is available [here](https://it.tradingeconomics.com/italy/calendar).
 
-Please, cite this report as: *IT-Nowcast: a monthly real-time estimate of the Italian GDP, A. Viselli (2024)*.
+Please, cite this report as: *IT-Nowcast: a monthly real-time forecast of the Italian GDP, A. Viselli (2024)*.
