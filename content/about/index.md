@@ -10,4 +10,4 @@ I am currently a postdoctoral researcher at the [Department of Economics, Manage
 
 Feel free to contact me for any question, information, or collaborations at [viselliandrea@gmail.com](mailto:viselliandrea@gmail.com).
 
-You can download my [curriculum vitae](/AndreaViselli_CV020725.pdf).
+You can download my [curriculum vitae](/AndreaViselli_CV_290725.pdf).
