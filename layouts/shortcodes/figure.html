@@ -1,0 +1,12 @@
+<!-- layouts/shortcodes/figure.html -->
+<figure style="text-align: center;">
+  <img 
+    src="{{ .Get "src" }}" 
+    alt="{{ .Get "alt" }}"
+    style="width: {{ .Get "width" | default "80%" }}; max-width: 600px;">
+  {{ with .Get "caption" }}
+  <figcaption style="font-size: 0.9em; color: #555;">
+    {{ . }}
+  </figcaption>
+  {{ end }}
+</figure>

@@ -4,13 +4,12 @@ date: 2023-11-19T22:38:36+01:00
 draft: false
 ---
 
-# Material
+# History of posts
 
-30-10-2024 --- Presentation on *Forecast evaluation with panel data* [[slides](/Forecast-Evaluation-Panel-Data.pdf)].
+23-09-2025 --- [Insight: Comparing predictive ability in presence of instability over a very short time](/posts/pub_comparing).
 
 &nbsp;
 
-# History of posts
+# Other material
 
-2024-05-21 --- New working paper: [*Comparing predictive ability in presence of instability over a very short time*](/posts/wpout_comparing) with F. Iacone and L. Rossini.
-
+30-10-2024 --- Presentation on *Forecast evaluation with panel data* [[slides](/Forecast-Evaluation-Panel-Data.pdf)].
