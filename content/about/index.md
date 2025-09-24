@@ -14,6 +14,7 @@ My research interests include forecast evaluation, forecasting methods, and caus
 - **Causal inference:** Using structural models to analyze energy markets and their connections with the macroeconomy, with a strong emphasis on policy.
 - **Probabilistic programming:** Exploring its application for modern time series analysis, forecasting, and causal inference.
 - **Alternative data:** Leveraging text data and other novel data sources for forecasting and risk measurement.
+
 I am always open to exploring interesting and challenging research questions, particularly those with a vision and strong technological potential.
 
 Feel free to contact me at [viselliandrea@gmail.com](mailto:viselliandrea@gmail.com). My *curriculum vitae* is available [here](/ViselliCV.pdf).
