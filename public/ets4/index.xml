@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ets4 Archive on Andrea Viselli</title>
+    <link>https://andreaviselli.it/ets4/</link>
+    <description>Recent content in ets4 Archive on Andrea Viselli</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <managingEditor>viselliandrea@gmail.com (Andrea Viselli)</managingEditor>
+    <webMaster>viselliandrea@gmail.com (Andrea Viselli)</webMaster>
+    <lastBuildDate>Fri, 10 Oct 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://andreaviselli.it/ets4/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ets4: Main Page</title>
+      <link>https://andreaviselli.it/ets4/main/</link>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+      <author>viselliandrea@gmail.com (Andrea Viselli)</author>
+      <guid>https://andreaviselli.it/ets4/main/</guid>
+      <description>Economic time series forecasting newsletter Here a summary of the newsletter, including its scope.
+Not subscribed yet? 🚀 Click here ! Latest issue: October 2025 Click here for the latest issue of the newsletter.
+Methodology Here a summary of the methodology used to select the working papers presented in this newsletter. Also the Github repository link.
+History of past issues Here the list of the past issues with a short description of each issue.</description>
+    </item>
+    
+    <item>
+      <title>ets4: October 2025 Issue</title>
+      <link>https://andreaviselli.it/ets4/2025-10/</link>
+      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+      <author>viselliandrea@gmail.com (Andrea Viselli)</author>
+      <guid>https://andreaviselli.it/ets4/2025-10/</guid>
+      <description>ets4: October 13, 2025 Directly Relevant Papers A curated list of recent papers on novel methods for forecasting economic time series.
+In this Issue
+Why Bonds Fail Differently? Explainable Multimodal Learning for Multi-Class Default Prediction Out-of-sample gravity predictions and trade policy counterfactuals Stabilising Lifetime PD Models under Forecast Uncertainty Meta-Learning Neural Process for Implied Volatility Surfaces with SABR-induced Priors Financial Shocks and the Output Growth Distribution The ECB-Multi Country Model. A semi-structural model for forecasting and policy analysis for the largest euro area countries Assessing Asymmetric Macroeconomic Risk Papers of Interest Methodologically novel papers from other fields that could be adapted for economic forecasting.</description>
+    </item>
+    
+  </channel>
+</rss>

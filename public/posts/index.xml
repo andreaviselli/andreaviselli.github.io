@@ -1,18 +1,17 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>All Posts - Andrea Viselli</title>
-        <link>http://example.org/posts/</link>
+        <link>https://andreaviselli.it/posts/</link>
         <description>All Posts | Andrea Viselli</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>viselliandrea@gmail.com (Andrea Viselli)</managingEditor>
-            <webMaster>viselliandrea@gmail.com (Andrea Viselli)</webMaster><lastBuildDate>Tue, 21 May 2024 09:05:38 &#43;0200</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
-    <title>Comparing predictive ability in presence of instability over a very short time, with F. Iacone and L. Rossini</title>
-    <link>http://example.org/posts/wpout_comparing/</link>
-    <pubDate>Tue, 21 May 2024 09:05:38 &#43;0200</pubDate>
-    <author>false</author>
-    <guid>http://example.org/posts/wpout_comparing/</guid>
-    <description><![CDATA[The preliminary version of the paper Comparing predictive ability in presence of instability over a very short time, co-authored with my Ph.D. advisors Fabrizio Iacone and Luca Rossini, is now available here.
-Abstract
-We consider forecast comparison in the presence of instability when this affects only a short period of time. We demonstrate that global tests do not perform well in this case, as they were not designed to capture very short-lived instabilities, and their power vanishes altogether when the magnitude of the shock is very large.]]></description>
+            <webMaster>viselliandrea@gmail.com (Andrea Viselli)</webMaster><lastBuildDate>Tue, 23 Sep 2025 00:00:00 &#43;0000</lastBuildDate><atom:link href="https://andreaviselli.it/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Insight: Comparing predictive ability in presence of instability over a very short time</title>
+    <link>https://andreaviselli.it/posts/pub_comparing/</link>
+    <pubDate>Tue, 23 Sep 2025 00:00:00 &#43;0000</pubDate>
+    <author>Andrea Viselli</author>
+    <guid>https://andreaviselli.it/posts/pub_comparing/</guid>
+    <description><![CDATA[The paper Comparing predictive ability in presence of instability over a very short time, co-authored with my former Ph.D. advisors Fabrizio Iacone and Luca Rossini, is now published in The Econometrics Journal.
+Abstract We consider forecast comparison in the presence of instability when this affects only a short period of time. We demonstrate that global tests do not perform well in this case, as they were not designed to capture very short-lived instabilities, and their power vanishes altogether when the magnitude of the shock is very large.]]></description>
 </item>
 </channel>
 </rss>

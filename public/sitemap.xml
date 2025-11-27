@@ -2,12 +2,15 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://example.org/</loc><lastmod>2024-05-21T09:05:38&#43;02:00</lastmod></url><url>
-            <loc>http://example.org/posts/wpout_comparing/</loc><lastmod>2024-05-21T09:05:38&#43;02:00</lastmod></url><url>
-            <loc>http://example.org/posts/</loc><lastmod>2024-05-21T09:05:38&#43;02:00</lastmod></url><url>
-            <loc>http://example.org/about/</loc><lastmod>2023-11-19T23:47:59&#43;01:00</lastmod></url><url>
-            <loc>http://example.org/blog/</loc><lastmod>2023-11-19T22:38:36&#43;01:00</lastmod></url><url>
-            <loc>http://example.org/itnow/</loc><lastmod>2023-11-19T22:38:36&#43;01:00</lastmod></url><url>
-            <loc>http://example.org/publications/</loc><lastmod>2023-11-19T22:38:36&#43;01:00</lastmod></url><url>
-            <loc>http://example.org/categories/</loc></url><url>
-            <loc>http://example.org/tags/</loc></url></urlset>
+            <loc>https://andreaviselli.it/</loc><lastmod>2025-10-10T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://andreaviselli.it/ets4/</loc><lastmod>2025-10-10T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://andreaviselli.it/ets4/main/</loc><lastmod>2025-10-10T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://andreaviselli.it/ets4/2025-10/</loc><lastmod>2025-10-01T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://andreaviselli.it/posts/pub_comparing/</loc><lastmod>2025-09-23T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://andreaviselli.it/posts/</loc><lastmod>2025-09-23T00:00:00&#43;00:00</lastmod></url><url>
+            <loc>https://andreaviselli.it/about/</loc><lastmod>2023-11-19T23:47:59&#43;01:00</lastmod></url><url>
+            <loc>https://andreaviselli.it/blog/</loc><lastmod>2023-11-19T22:38:36&#43;01:00</lastmod></url><url>
+            <loc>https://andreaviselli.it/itnow/</loc><lastmod>2023-11-19T22:38:36&#43;01:00</lastmod></url><url>
+            <loc>https://andreaviselli.it/publications/</loc><lastmod>2023-11-19T22:38:36&#43;01:00</lastmod></url><url>
+            <loc>https://andreaviselli.it/categories/</loc></url><url>
+            <loc>https://andreaviselli.it/tags/</loc></url></urlset>

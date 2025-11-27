@@ -1,8 +1,8 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - Andrea Viselli</title>
-        <link>http://example.org/tags/</link>
+        <link>https://andreaviselli.it/tags/</link>
         <description>Tags - Tag - Andrea Viselli</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>viselliandrea@gmail.com (Andrea Viselli)</managingEditor>
-            <webMaster>viselliandrea@gmail.com (Andrea Viselli)</webMaster><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /></channel>
+            <webMaster>viselliandrea@gmail.com (Andrea Viselli)</webMaster><atom:link href="https://andreaviselli.it/tags/" rel="self" type="application/rss+xml" /></channel>
 </rss>
