@@ -15,7 +15,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 &nbsp;
 
-## 📊 Quarterly Growth Nowcast Density (Last Update: January, 2026)
+## 📊 Quarterly Growth Nowcast Density (Last Update: December, 2025)
 
 &nbsp;
 
