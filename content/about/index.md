@@ -7,6 +7,8 @@ draft: false
 *A reflective glimpse of the plain near my home.*
 ![mypic0](images/land.jpg " ")
 
+&nbsp;
+
 ## 📬 Contacts
 
 Feel free to contact me at [viselliandrea@gmail.com](mailto:viselliandrea@gmail.com). 
@@ -31,6 +33,6 @@ In particular, I am currently interested in the following topics:
 - **Forecast evaluation:** statistical tests of predictive ability and performance evaluation metrics.
 - **Forecast combinations:** frequentist and Bayesian combination methods, and the explanaibility of component forecasts for economic communication.
 
-I am also eager to work on the following topics
+I am also eager to work on the following areas:
 - **Probabilistic programming:** bridging probabilistic programming languagues and econometrics for applications in economic forecasting and structural analysis.
 - **Alternative data:** text data & large language models for economic forecasting and risk measurement.
