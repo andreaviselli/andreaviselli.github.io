@@ -5,32 +5,24 @@ draft: false
 plotly: true
 ---
 
----
-
-⚙️ **UPDATES ARE CURRENTLY SUSPENDED DUE TO ONGOING IMPROVEMENTS TO THE METHODOLOGY**
-
----
-
 &nbsp;
 
-## 🇮🇹 A Monthly Real-Time Forecast of Italian Gross Domestic Product
+## 🇮🇹 Nowcasting Italian Quarterly Gross Domestic Product
 
-We provide monthly nowcasts and backcasts for quarter-on-quarter (QoQ) Gross Domestic Product (GDP, 2020 chain-linked) growth. The backcasts revise the nowcast from the previous month. In addition, we provide quarterly nowcasts for the GDP level and the associated forecast error. 
-
-Monthly updates are released at the end of each month, while quarterly updates are published at the end of each quarter.
+I provide **monthly** nowcasts and backcasts for quarter-on-quarter (QoQ) Gross Domestic Product (GDP, 2020 chain-linked) growth its level.
 
 Further details on the methodology and the historical nowcast series are available at the end of the page.
 
 &nbsp;
 
-## 📊 Quarterly Growth Nowcast Density (Last Update: October, 2025)
+## 📊 Quarterly Growth Nowcast Density (Last Update: January, 2026)
 
 &nbsp;
 
 <!-- Keep height="500px" for consistency with the Python generating code -->
 {{< plotly json="/ITNOW/GDP_KDE_Ncast.json" height="510px" >}}  
 
-*Figure 1: Kernel density estimate of the Italian quarterly nominal GDP growth nowcasts in 2020 chain-linked values. DT1 and BG1 are the nowcasts from the Dynamic Threshold (DT) and Bates and Granger (1969) combination schemes, while Median corresponds to the median nowcast.*
+*Figure 1: Kernel density estimate of the Italian quarterly nominal GDP growth nowcasts in 2020 chain-linked values. Full and Skilled correspond to time-varying combinations schemes using, respectively, the full and the selected "skilled" set of top five nowcasts, while Median corresponds to the median nowcast.*
 
 &nbsp;
 
@@ -40,31 +32,31 @@ Further details on the methodology and the historical nowcast series are availab
 
 {{< plotly json="/ITNOW/GDP_Growth_Ncast.json" height="510px" >}}
 
-*Figure 2: History of the Italian quarterly nominal GDP growth nowcasts using the DT combination scheme and realizations in 2020 chain-linked values. Note that, prior to the latest nowcast, pseudo–real-time nowcasts are displayed. The empirical prediction intervals are computed using the history of the DT combination nowcast errors (zoom in for more details).*
+*Figure 2: History of the Italian quarterly nominal GDP growth nowcasts using the skilled combination of top five methods and realizations in 2020 chain-linked values. Note that, prior to the latest nowcast, pseudo–real-time nowcasts are displayed. The empirical prediction intervals are computed using the history of the skilled combination nowcast errors (zoom in for more details).*
 
 &nbsp;
 
 | QoQ % Change (back) | QoQ % Change (now) | 5% Pr. (now) | 95% Pr. (now) |
 |----------------------|--------------------|---------------|---------------|
-| 0.13                | 0.20               | -0.11         | 0.62          |
+| 0.23                 | 0.17               | -0.36         | 0.96          |
 
 *Table 1: Ultimate nowcast and empirical prediction intervals at the 5% and 95% levels (see Figure 1).*
 
 &nbsp;
 
-## 🧭 Reference Quarter Nowcast (Last Update: Q2-2025)
+## 🧭 Reference Quarter Nowcast (Last Update: Q4-2025)
 
 &nbsp;
 
 {{< plotly json="/ITNOW/GDP_Level_Ncast.json" height="510px" >}}  
 
-*Figure 3: History of the Italian quarterly Nominal GDP level nowcasts using the DT combination scheme and realizations in 2020 chain-linked values (billions of euros). Note that, prior to the latest nowcast, pseudo–real-time nowcasts are displayed (zoom in for more details).*
+*Figure 3: History of the Italian quarterly Nominal GDP level nowcasts using the skilled combination of top five methods and realizations in 2020 chain-linked values (billions of euros). Note that, prior to the latest nowcast, pseudo–real-time nowcasts are displayed (zoom in for more details).*
 
 &nbsp;
 
-| QoQ % Change | YoY % Change | Carry-Over | Level |
+| QoQ % Change  | YoY % Change | Carry-Over  | Level (Billion €) |
 |---------------|--------------|-------------|--------|
-| 0.20          | 0.67         | 0.46        | 486.15 |
+| 0.17          | 0.54         | 0.54        | 487.61 |
 
 *Table 2: Nowcasted QoQ and YoY growth rates, carry-over annual effect, and GDP level (see Figure 2). Note that the carry-over annual effect is unavailable for the first quarter of the year, and coincides with the YoY % Change in the last quarter.*
 
@@ -76,7 +68,7 @@ Nowcasting methods aim to provide the general public — such as policymakers, m
 
 For example, the quarterly Italian GDP figure is published one month after the reference quarter. This means that, for instance, the Q1 figure (covering January, February, and March) is only released at the beginning of April. However, industrial production — which is a strong predictor of the GDP — is released monthly and can therefore be used to nowcast GDP.
 
-The econometric methodology applied in this report is based on the working paper *“Nowcast Combinations in the Presence of Instabilities”* (A. Viselli, submitted), which has not yet been disseminated. The corresponding code will soon be made publicly available on GitHub.
+The econometric methodology applied in this report is based on the working paper *“Skilled nowcast combinations during crises”* (A. Viselli). The corresponding code will soon be made publicly available on GitHub.
 
 &nbsp;
 
@@ -93,4 +85,4 @@ The latest ISTAT release can be found [here](https://www.istat.it/en/press-relea
 
 You can **cite** this initiative as: 
 
-*IT-NOW: a monthly real-time forecast of the Italian Gross Domestic Product*, A. Viselli.
+*IT-NOW: Nowcasting Italian Quarterly Gross Domestic Product*, by A. Viselli.

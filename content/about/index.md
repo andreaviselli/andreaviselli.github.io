@@ -7,6 +7,13 @@ draft: false
 *A reflective glimpse of the plain near my home.*
 ![mypic0](images/land.jpg " ")
 
+## 📬 Contacts
+
+Feel free to contact me at [viselliandrea@gmail.com](mailto:viselliandrea@gmail.com). 
+My *curriculum vitae* is available [**here**](/ViselliCV.pdf).
+
+&nbsp;
+
 ## 💻 Bio (short)
 
 I am currently working as a Teaching Assistant at the [Faculty of Economics and Management](https://www.unibz.it/en/faculties/economics-management/) of the Free University of Bozen-Bolzano, where I support courses in Econometrics and Statistics for Economics.
@@ -21,17 +28,9 @@ Previously, I was a Postdoctoral Researcher at the [Department of Economics, Man
 My research interests include forecast evaluation, forecasting models & methods, and structural analysis in macroeconomics and energy. 
 
 In particular, I am currently interested in the following topics:
-- **Forecast evaluation:** predictive ability tests and performance metrics using alternative loss functions; testing in the presence of weak signal in the forecasting variable.
-- **Forecast combinations:** frequentist and Bayesian combination methods, and the explanaibility of component forecasts for economic communication (e.g., central banks).
-- **Structural analysis:** structural vector autoregressive models for the empirical analysis of electricity and energy markets and their interconnections with the macroeconomy, with a strong emphasis on policy.
+- **Forecast evaluation:** statistical tests of predictive ability and performance evaluation metrics.
+- **Forecast combinations:** frequentist and Bayesian combination methods, and the explanaibility of component forecasts for economic communication.
+
+I am also eager to work on the following topics
 - **Probabilistic programming:** bridging probabilistic programming languagues and econometrics for applications in economic forecasting and structural analysis.
 - **Alternative data:** text data & large language models for economic forecasting and risk measurement.
-
-&nbsp;
-
-## 📬 Contacts
-
-I am always **open** to exploring innovative research questions, particularly those with a strong vision, technological potential, and practical applicability.
-
-Feel free to contact me at [viselliandrea@gmail.com](mailto:viselliandrea@gmail.com). 
-My *curriculum vitae* is available [**here**](/ViselliCV.pdf).
