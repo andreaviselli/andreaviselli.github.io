@@ -9,13 +9,13 @@ plotly: true
 
 ## 🇮🇹 Nowcasting Italian Quarterly Gross Domestic Product
 
-I provide **monthly** nowcasts and backcasts for quarter-on-quarter (QoQ) Gross Domestic Product (GDP, 2020 chain-linked) growth its level.
+This initiative provides nowcasts and backcasts for quarter-on-quarter (QoQ) nominal Gross Domestic Product (GDP, 2020 chain-linked) growth on a **monthly** basis.
 
 Further details on the methodology and the historical nowcast series are available at the end of the page.
 
 &nbsp;
 
-## 📊 Quarterly Growth Nowcast Density (Last Update: December, 2025)
+## 📊 Quarterly Growth Nowcast Density (Last Update: Jan, 2026)
 
 &nbsp;
 
@@ -38,7 +38,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 | QoQ % Change (back) | QoQ % Change (now) | 5% Pr. (now) | 95% Pr. (now) |
 |----------------------|--------------------|---------------|---------------|
-| 0.23                 | 0.17               | -0.36         | 0.96          |
+| 0.29                 | 0.23               | -0.28         | 1.02          |
 
 *Table 1: Ultimate nowcast and empirical prediction intervals at the 5% and 95% levels (see Figure 1).*
 
@@ -47,6 +47,8 @@ Further details on the methodology and the historical nowcast series are availab
 ## 🧭 Reference Quarter Nowcast (Last Update: Q4-2025)
 
 &nbsp;
+
+**Note**: This section is not updated during the quarter; it is intended solely for end-of-quarter nowcasts.
 
 {{< plotly json="/ITNOW/GDP_Level_Ncast.json" height="510px" >}}  
 
@@ -64,11 +66,11 @@ Further details on the methodology and the historical nowcast series are availab
 
 ## 🧮 Methodological Note
 
-Nowcasting methods aim to provide the general public — such as policymakers, media, and investors — with real-time assessments of key economic indicators that would otherwise be subject to significant publication delays. In short, these methods leverage higher-frequency data to forecast indicators that are released less frequently.
+Nowcasting methods aim to provide the general public — such as policymakers, media, and investors — with real-time assessments of key economic indicators that would otherwise be subject to significant publication delays. These methods leverage higher-frequency data to forecast indicators that are released less frequently.
 
-For example, the quarterly Italian GDP figure is published one month after the reference quarter. This means that, for instance, the Q1 figure (covering January, February, and March) is only released at the beginning of April. However, industrial production — which is a strong predictor of the GDP — is released monthly and can therefore be used to nowcast GDP.
+For example, the quarterly Italian GDP figure is published one month after the reference quarter. This means that the Q1 figure (covering January, February, and March) is only released at the beginning of April. However, industrial production — which is a strong predictor of the GDP — is released monthly and can therefore be used to nowcast GDP.
 
-The econometric methodology applied in this report is based on the working paper *“Skilled nowcast combinations during crises”* (A. Viselli). The corresponding code will soon be made publicly available on GitHub.
+The econometric methodology applied in this initiative is based on the working paper *“Skilled nowcast combinations during crises”* (A. Viselli). The corresponding code will soon be made publicly available on GitHub.
 
 &nbsp;
 
@@ -76,13 +78,15 @@ The econometric methodology applied in this report is based on the working paper
 
 Click [here](/ITNOW/ITNOW_History.xlsx) to download the historical nowcast series. Note that nowcasts prior to October 2024 are excluded, as they were derived from an out-of-sample exercise.  
 
-The latest ISTAT release can be found [here](https://www.istat.it/en/press-release/quarterly-national-accounts-q4-2024/), and an Italian economic calendar is available [here](https://it.tradingeconomics.com/italy/calendar).
+The latest ISTAT release (Q4:2025, preliminary estimate of GDP) can be found [here](https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q4-2025/).
+
+An Italian economic calendar is available [here](https://it.tradingeconomics.com/italy/calendar).
 
 
 &nbsp;
 
 ---
 
-You can **cite** this initiative as: 
+You can **cite** this initiative through the paper: 
 
-*IT-NOW: Nowcasting Italian Quarterly Gross Domestic Product*, by A. Viselli.
+A. Viselli, **Skilled nowcast combinations during crises** (R&R at *Studies in Nonlinear Dynamics and Econometrics*).
