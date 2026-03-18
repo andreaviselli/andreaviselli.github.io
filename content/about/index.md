@@ -22,6 +22,7 @@ I am currently working as a Teaching Assistant at the [Faculty of Economics and 
 
 Previously, I was a Postdoctoral Researcher at the [Department of Economics, Management, and Quantitative Methods](https://demm.unimi.it/it) at the University of Milan. I hold a Ph.D. in Economics jointly awarded by the [University of Milan and the University of Pavia](https://www.phdeconomics.unimi.it/) in February 2025.
 
+I apply state-of-the-art forecasting and econometric methods in practical settings and construct integrated forecasting pipelines to support decision-making under uncertainty for businesses, professionals, and policy makers.
 
 &nbsp; 
 
@@ -35,4 +36,4 @@ In particular, I am currently interested in the following topics:
 
 I am also eager to work on the following areas:
 - **Probabilistic programming:** bridging probabilistic programming languagues and econometrics for applications in economic forecasting and structural analysis.
-- **Alternative data:** text data & large language models for economic forecasting and risk measurement.
+- **Alternative data:** text data, large language models, and AI agents for economic forecasting and risk measurement.
