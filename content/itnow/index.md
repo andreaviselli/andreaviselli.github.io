@@ -15,7 +15,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 &nbsp;
 
-## 📊 Quarterly Growth Nowcast Density (Last Update: Feb, 2026)
+## 📊 Quarterly Growth Nowcast Density (Last Update: Mar, 2026)
 
 &nbsp;
 
@@ -38,13 +38,13 @@ Further details on the methodology and the historical nowcast series are availab
 
 | QoQ % Change (back) | QoQ % Change (now) | 5% Pr. (now) | 95% Pr. (now) |
 |----------------------|--------------------|---------------|---------------|
-| 0.14                 | 0.17               | -0.42         | 0.94          |
+| 0.15                 | 0.05               | -0.57         | 0.89          |
 
 *Table 1: Latest nowcast and empirical prediction intervals at the 5% and 95% levels (see Figure 1).*
 
 &nbsp;
 
-## 🧭 Reference Quarter Nowcast (Last Update: Q4-2025)
+## 🧭 Reference Quarter Nowcast (Last Update: Q1-2026)
 
 &nbsp;
 
@@ -58,7 +58,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 | QoQ % Change  | YoY % Change | Carry-Over  | Level (Billion €) |
 |---------------|--------------|-------------|--------|
-| 0.17          | 0.54         | 0.54        | 487.61 |
+| 0.05          | 0.55         | 0.05        | 489.21 |
 
 *Table 2: Nowcasted QoQ and YoY growth rates, carry-over annual effect, and GDP level (see Figure 2). Note that the carry-over annual effect is unavailable for the first quarter of the year, and coincides with the YoY % Change in the last quarter.*
 
