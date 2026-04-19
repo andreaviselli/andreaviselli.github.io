@@ -32,27 +32,27 @@ languageName = "English"
     title = ""
   [[menu.main]]
     weight = 2
-    identifier = "publications"
+    identifier = "research"
     pre = ""
     post = ""
-    name = "Publications"
-    url = "/publications/"
+    name = "Research"
+    url = "/research/"
     title = ""
     [[menu.main]]
     weight = 3
     identifier = "itnow"
     pre = ""
     post = ""
-    name = "IT-NOW"
+    name = "ITNOW"
     url = "/itnow/"
     title = ""
     [[menu.main]]
     weight = 4
-    identifier = "ets4"
+    identifier = "ETS4"
     pre = ""
     post = ""
-    name = "ets4"
-    url = "/ets4/main/"
+    name = "ETS4"
+    url = "/ETS4/main/"
     title = ""
   [[menu.main]]
     weight = 5

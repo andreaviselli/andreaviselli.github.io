@@ -18,22 +18,18 @@ My *curriculum vitae* is available [**here**](/ViselliCV.pdf).
 
 ## 💻 Bio (short)
 
-I am currently working as a Teaching Assistant at the [Faculty of Economics and Management](https://www.unibz.it/en/faculties/economics-management/) of the Free University of Bozen-Bolzano, where I support courses in Econometrics and Statistics for Economics.
+I am currently working as a Postdoctoral Researcher in the [SURE-AI](https://www.sure-ai.no/) Program at the [Department of Data Science and Analytics](https://www.bi.no/en/) of BI Norwegian Business School, Oslo.
 
 Previously, I was a Postdoctoral Researcher at the [Department of Economics, Management, and Quantitative Methods](https://demm.unimi.it/it) at the University of Milan. I hold a Ph.D. in Economics jointly awarded by the [University of Milan and the University of Pavia](https://www.phdeconomics.unimi.it/) in February 2025.
-
-I apply state-of-the-art forecasting and econometric methods in practical settings and construct integrated forecasting pipelines to support decision-making under uncertainty for businesses, professionals, and policy makers.
 
 &nbsp; 
 
 ## 📖 Research interests
 
-My research interests include forecast evaluation, forecasting models & methods, and structural analysis in macroeconomics and energy. 
+I am interested in **almost everything** related to the forecasting and nowcasting of economic time series.
 
-In particular, I am currently interested in the following topics:
-- **Forecast evaluation:** statistical tests of predictive ability and performance evaluation metrics.
-- **Forecast combinations:** frequentist and Bayesian combination methods, and the explanaibility of component forecasts for economic communication.
-
-I am also eager to work on the following areas:
-- **Probabilistic programming:** bridging probabilistic programming languagues and econometrics for applications in economic forecasting and structural analysis.
-- **Alternative data:** text data, large language models, and AI agents for economic forecasting and risk measurement.
+I am currently working on, and/or have a particular interest in, the following topics:
+- **Forecast evaluation:** tests of equal predictive ability (*à la Diebold & Mariano*) that are robust to heavy-tailed forecast errors.
+- **Forecast combinations:** time-varying combination schemes that account for changes in predictive performance over time.
+- **Electricity forecasting & structural analysis:** econometric forecasting of electricity prices and the role of structural shocks in shaping European electricity markets.
+- **Judgmental forecasting:** survey forecasts and their informational differentiation in forecasting macroeconomic aggregates (e.g., inflation).

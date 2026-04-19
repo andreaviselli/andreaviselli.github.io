@@ -1,20 +1,22 @@
 ---
-title: "ets4: Main Page"
+title: "ETS4: Main Page"
 date: 2025-10-10
 draft: false
 ---
 
 ---
 
-⚙️ **ets4 IS STILL UNDER CONSTRUCTION**
+⚙️ **I am still implementing ETS4 (and hope it will be ready soon)**
 
 ---
 
 &nbsp;
 
-## Economic Time Series Forecasting (*Selection*)
+## The idea behind ETS4
 
-The purpose of **ets4** is twofold. First, it reflects a personal commitment: to keep learning and stay up to date with new and emerging **forecasting methodologies** across different strands of the literature, including work beyond economics. Second, it aims to provide researchers and practitioners with curated summaries and commentary on relevant **working papers** in this area.
+I have always wanted to stay up to date with new and emerging **forecasting methodologies** in economics. However, in practice, it is difficult to come across work that develops outside one’s own strict and highly specific domain of expertise. It may well be that other researchers and practitioners share the same desire and, for the sake of intellectual exploration, do not want to miss these studies.
+
+The aim of ETS4 is therefore to provide curated summaries of, and commentary on, relevant **working papers** on such topics. Why only working papers and not published work? Because it is simpler to collect newly released working papers, and to spot new trends in this setting, than it is in journals.
 
 For each issue, I begin by using an AI-based engine to screen a large number of recent working papers (e.g. over the previous month) and to assign them an initial, rough score based on multiple essential criteria. I then continue the selection and pick works offering innovative insights, models, methods, or data for forecasting in macroeconomics, finance, energy, and possibly other areas of economics. 
 
@@ -22,7 +24,7 @@ I may also include works from outside economics when relevant from the perspecti
 
 &nbsp;
 
-#### ✉️ Not subscribed yet?
+#### ✉️ If you are interested, you can subscribe
 **{{< mailerlite-form >}}** and join the mailing list to receive each new issue directly in your **inbox**.
 
 &nbsp;
@@ -33,14 +35,14 @@ Read it [**here**](/ets4/2025-10) and explore this month’s selection.
 
 &nbsp;
 
-#### 🗂️ Archive of past issues
+#### 🗂️ Archive
 
 Browse the complete list of previous editions.  
-View the [**ets4 Archive**](/ets4/).
+View the [**ETS4 Archive**](/ets4/).
 
 &nbsp;
 
-## *Human-in-the-loop* methodology behind **ets4**
+## *Human-in-the-loop* methodology**
 
 The working papers are drawn from leading academic and institutional sources — including **NEP (RePEc)**, **arXiv**, and **central banks** such as the ECB, Federal Reserve, and **institutions** such as the IMF, BIS, and CEPR.
 
@@ -70,6 +72,6 @@ More generally, the papers I choose reflect my intention to disseminate not only
 
 ---
 
-Feedback and suggestions on *ets4* are **more than welcome**.
+Feedback and suggestions on *ETS4* are **more than welcome**.
 
 🔗 You can view the full collection and scoring engine on [**→ GitHub**](https://github.com/andreaviselli/andreaviselli.github.io).
