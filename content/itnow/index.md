@@ -78,7 +78,7 @@ The econometric methodology applied in this initiative is based on the working p
 
 Click [here](/ITNOW/ITNOW_History.xlsx) to download the historical nowcast series. Note that nowcasts prior to October 2024 are excluded, as they were derived from an out-of-sample exercise.  
 
-The latest ISTAT release (Q4:2025, preliminary estimate of GDP) can be found [here](https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q4-2025/).
+The latest ISTAT release (Q1:2026, preliminary estimate of GDP) can be found [here](https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q1-2026/).
 
 An Italian economic calendar is available [here](https://it.tradingeconomics.com/italy/calendar).
 
