@@ -15,7 +15,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 &nbsp;
 
-## 📊 Quarterly Growth Nowcast Density (Last Update: Apr, 2026)
+## 📊 Quarterly Growth Nowcast Density (Last Update: May, 2026)
 
 &nbsp;
 
@@ -38,7 +38,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 | QoQ % Change (back) | QoQ % Change (now) | 5% Pr. (now) | 95% Pr. (now) |
 |----------------------|--------------------|---------------|---------------|
-| 0.18                 | 0.24               | -0.64         | 1.06          |
+| 0.23                 | 0.53               | -0.15         | 1.33          |
 
 *Table 1: Latest nowcast and empirical prediction intervals at the 5% and 95% levels (see Figure 1).*
 

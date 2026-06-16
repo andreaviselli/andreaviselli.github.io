@@ -1,0 +1,35 @@
+{
+  "vintage": "20260616",
+  "eval_end": "2026-05-01",
+  "is_quarter_end": false,
+  "monthly_update": "May, 2026",
+  "reference_quarter_update": "Q2-2026",
+  "history_row": {
+    "Time": "2026-06-16",
+    "Quarter": "N/A",
+    "Month": 5,
+    "Year": 2026,
+    "Backcast": 0.0023,
+    "Nowcast": 0.0053,
+    "5Perc": -0.0015,
+    "95Perc": 0.013300000000000001,
+    "Nowcast (YoY)": "N/A",
+    "Preliminary": "N/A"
+  },
+  "tables": {
+    "growth": {
+      "date": "2026-05-01",
+      "QoQ % Change (back)": 0.23,
+      "QoQ % Change (now)": 0.53,
+      "5% Pr. (now)": -0.15,
+      "95% Pr. (now)": 1.33
+    },
+    "level": {
+      "quarter": "Q2-2026",
+      "QoQ % Change": 0.53,
+      "YoY % Change": null,
+      "Carry Over": null,
+      "Level (Bln \u20ac)": null
+    }
+  }
+}
