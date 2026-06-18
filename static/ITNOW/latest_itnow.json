@@ -3,7 +3,13 @@
   "eval_end": "2026-05-01",
   "is_quarter_end": false,
   "monthly_update": "May, 2026",
-  "reference_quarter_update": "Q2-2026",
+  "reference_quarter_update": "Q1-2026",
+  "nowcast_quarter": "Q2-2026",
+  "istat_release": {
+    "quarter": 1,
+    "year": 2026,
+    "line": "The latest ISTAT release (Q1:2026, preliminary estimate of GDP) can be found [here](https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q1-2026/)."
+  },
   "history_row": {
     "Time": "2026-06-16",
     "Quarter": "N/A",

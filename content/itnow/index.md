@@ -22,7 +22,7 @@ Further details on the methodology and the historical nowcast series are availab
 <!-- Keep height="500px" for consistency with the Python generating code -->
 {{< plotly json="/ITNOW/GDP_KDE_Ncast.json" height="510px" >}}  
 
-*Figure 1: Kernel density estimate of the Italian quarterly nominal GDP growth nowcasts in 2020 chain-linked values. Full and Skilled correspond to time-varying combinations schemes using, respectively, the full and the selected "skilled" set of top five nowcasts, while Median corresponds to the median nowcast.*
+*Figure 1: Kernel density estimate based on the full panel of quarterly nominal GDP growth nowcasts in 2020 chain-linked values. Full and Skilled correspond to time-varying combination schemes using, respectively, the full set of methods and the selected "skilled" set of top five nowcasts, while Median corresponds to the median nowcast.*
 
 &nbsp;
 
@@ -32,7 +32,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 {{< plotly json="/ITNOW/GDP_Growth_Ncast.json" height="510px" >}}
 
-*Figure 2: History of the Italian quarterly nominal GDP growth nowcasts using the skilled combination of top five methods and realizations in 2020 chain-linked values. Note that, prior to the latest nowcast, pseudo–real-time nowcasts are displayed. The empirical prediction intervals are computed using the history of the skilled combination nowcast errors (zoom in for more details).*
+*Figure 2: History of the Italian quarterly nominal GDP growth nowcasts using the skilled combination of top five methods and realizations in 2020 chain-linked values. Prior to the latest nowcast, pseudo-real-time nowcasts are displayed. The shaded band is a 90% empirical prediction interval based on the 5th and 95th percentiles of the historical skilled-combination nowcast errors.*
 
 &nbsp;
 
@@ -40,7 +40,7 @@ Further details on the methodology and the historical nowcast series are availab
 |----------------------|--------------------|---------------|---------------|
 | 0.23                 | 0.53               | -0.15         | 1.33          |
 
-*Table 1: Latest nowcast and empirical prediction intervals at the 5% and 95% levels (see Figure 1).*
+*Table 1: Latest skilled-combination nowcast and 90% empirical prediction interval bounds. The bounds are obtained from historical skilled-combination nowcast errors, not from the cross-sectional distribution of current model nowcasts (see Figure 2).*
 
 &nbsp;
 
