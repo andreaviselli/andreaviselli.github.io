@@ -1,2 +1,41 @@
-<!-- MailerLite Trigger Link -->
-<a class="ml-onclick-form" href="javascript:void(0)" onclick="ml('show', 'FWEopp', true)"> Click here </a>
+<a class="ml-onclick-form" href="#" data-mailerlite-form="FWEopp">Click here</a>
+
+<script>
+    (function () {
+        var universalScript = 'https://assets.mailerlite.com/js/universal.js';
+        var accountId = '1837499';
+
+        function ensureMailerLite(callback) {
+            if (window.ml && window.ml.loaded) {
+                callback();
+                return;
+            }
+
+            window.ml = window.ml || function () {
+                (window.ml.q = window.ml.q || []).push(arguments);
+            };
+
+            if (!document.querySelector('script[src="' + universalScript + '"]')) {
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = universalScript;
+                document.head.appendChild(script);
+            }
+
+            window.ml('account', accountId);
+            callback();
+        }
+
+        document.addEventListener('click', function (event) {
+            var trigger = event.target.closest('[data-mailerlite-form]');
+            if (!trigger) {
+                return;
+            }
+
+            event.preventDefault();
+            ensureMailerLite(function () {
+                window.ml('show', trigger.dataset.mailerliteForm, true);
+            });
+        });
+    }());
+</script>

@@ -39,16 +39,7 @@ The idea behind ETS4 I have always wanted to stay up to date with new and emergi
                 "name": "Andrea Viselli"
             },"description": ""
     }
-    </script>
-<script>
-    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-    ml('account', '1837499');
-</script>
-
-    </head>
+    </script></head>
     <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
 
         <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
@@ -88,8 +79,48 @@ The idea behind ETS4 I have always wanted to stay up to date with new and emergi
 <p>I may also include works from outside economics when relevant from the perspective of economic forecasting.</p>
 <p> </p>
 <h4 id="-if-you-are-interested-you-can-subscribe">✉️ If you are interested, you can subscribe</h4>
-<p><strong>
-<a class="ml-onclick-form" href="javascript:void(0)" onclick="ml('show', 'FWEopp', true)"> Click here </a></strong> and join the mailing list to receive each new issue directly in your <strong>inbox</strong>.</p>
+<p><a class="ml-onclick-form" href="#" data-mailerlite-form="FWEopp">Click here</a>
+
+<script>
+    (function () {
+        var universalScript = 'https://assets.mailerlite.com/js/universal.js';
+        var accountId = '1837499';
+
+        function ensureMailerLite(callback) {
+            if (window.ml && window.ml.loaded) {
+                callback();
+                return;
+            }
+
+            window.ml = window.ml || function () {
+                (window.ml.q = window.ml.q || []).push(arguments);
+            };
+
+            if (!document.querySelector('script[src="' + universalScript + '"]')) {
+                var script = document.createElement('script');
+                script.async = true;
+                script.src = universalScript;
+                document.head.appendChild(script);
+            }
+
+            window.ml('account', accountId);
+            callback();
+        }
+
+        document.addEventListener('click', function (event) {
+            var trigger = event.target.closest('[data-mailerlite-form]');
+            if (!trigger) {
+                return;
+            }
+
+            event.preventDefault();
+            ensureMailerLite(function () {
+                window.ml('show', trigger.dataset.mailerliteForm, true);
+            });
+        });
+    }());
+</script>
+ and join the mailing list to receive each new issue directly in your <strong>inbox</strong>.</p>
 <p> </p>
 <h4 id="-latest-issue--october-2025">🗓️ Latest issue — <strong>October 2025</strong></h4>
 <p>Read it <a href="/ets4/2025-10" rel=""><strong>here</strong></a> and explore this month’s selection.</p>

@@ -25,7 +25,7 @@ I may also include works from outside economics when relevant from the perspecti
 &nbsp;
 
 #### ✉️ If you are interested, you can subscribe
-**{{< mailerlite-form >}}** and join the mailing list to receive each new issue directly in your **inbox**.
+{{< mailerlite-form >}} and join the mailing list to receive each new issue directly in your **inbox**.
 
 &nbsp;
 
