@@ -1,5 +1,5 @@
 ---
-title: "Insight: Comparing predictive ability in presence of instability over a very short time"
+title: "Comparing predictive ability in presence of instability over a very short time"
 date: 2025-09-23
 draft: false
 author: Andrea Viselli

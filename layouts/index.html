@@ -1,0 +1,87 @@
+{{- define "content" -}}
+    {{- $params := .Scratch.Get "params" -}}
+    {{- $posts := .Site.Params.home.posts -}}
+
+    <div class="page home modern-home"{{ if ne $posts.enable false }} data-home="posts"{{ end }}>
+        <section class="modern-hero" aria-label="Introduction">
+            <div class="modern-hero-content">
+                <p class="hero-kicker">Forecasting / Time series / Econometrics</p>
+                <h1 aria-label="Andrea Viselli">
+                    <span class="name-line">Andrea</span>
+                    <span class="name-line surname">Viselli</span>
+                </h1>
+                <p class="hero-intro">
+                    I am a postdoctoral researcher in the <a href="https://www.sure-ai.no/" target="_blank" rel="noopener noreffer">SURE-AI Program</a><br>
+                    at <a href="https://www.bi.no/en/" target="_blank" rel="noopener noreffer">BI Norwegian Business School</a>, Oslo.
+                </p>
+                <div class="hero-actions" aria-label="Primary links">
+                    <a class="hero-action primary" href="{{ "/research/" | relURL }}">Research</a>
+                    <a class="hero-action" href="{{ "/blog/" | relURL }}">Writing</a>
+                    <a class="hero-action" href="{{ "/itnow/" | relURL }}">ITNOW</a>
+                </div>
+            </div>
+            <div class="hero-portrait" aria-label="Portrait of Andrea Viselli">
+                {{- dict "Src" "images/mypic0.jpg" "Alt" "Portrait of Andrea Viselli" "Class" "hero-portrait-img" | partial "plugin/img.html" -}}
+            </div>
+            <div class="hero-signal" aria-label="Current focus">
+                <span>Forecast evaluation</span>
+                <span>Mixed-frequency data</span>
+                <span>Macro nowcasting</span>
+                <span>Forecast combinations</span>
+            </div>
+        </section>
+
+        {{- if .Content -}}
+            <section class="single modern-home-content">
+                <div class="content" id="content">
+                    {{- dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction "Fontawesome" $params.fontawesome | partial "function/content.html" | safeHTML -}}
+                </div>
+            </section>
+        {{- end -}}
+
+        <section class="focus-grid" aria-label="Featured sections">
+            <a class="focus-item research" href="{{ "/research/" | relURL }}">
+                <span class="focus-label">Research</span>
+                <strong>Academic work</strong>
+                <span>Published research, working papers, and replication material.</span>
+            </a>
+            <a class="focus-item nowcast" href="{{ "/itnow/" | relURL }}">
+                <span class="focus-label">Project</span>
+                <strong>Italian GDP nowcasting</strong>
+                <span>A mixed-frequency nowcasting project for tracking Italian GDP in real time.</span>
+            </a>
+            <a class="focus-item ets" href="{{ "/ETS4/main/" | relURL }}">
+                <span class="focus-label">Curation</span>
+                <strong>ETS4 reading notes</strong>
+                <span>Selected working papers on new methods for economic forecasting.</span>
+            </a>
+        </section>
+
+        {{- if ne $posts.enable false | and .Site.RegularPages -}}
+            <section class="latest-posts" aria-labelledby="latest-posts-title">
+                <div class="section-heading">
+                    <p>Latest</p>
+                    <h2 id="latest-posts-title">Notes and updates</h2>
+                </div>
+
+                <div class="summary-grid">
+                    {{- $pages := where .Site.RegularPages "Type" "posts" -}}
+                    {{- if .Site.Params.page.hiddenFromHomePage -}}
+                        {{- $pages = where $pages "Params.hiddenfromhomepage" false -}}
+                    {{- else -}}
+                        {{- $pages = where $pages "Params.hiddenfromhomepage" "!=" true -}}
+                    {{- end -}}
+                    {{- with $posts.paginate | default .Site.Params.paginate -}}
+                        {{- $pages = $.Paginate $pages . -}}
+                    {{- else -}}
+                        {{- $pages = .Paginate $pages -}}
+                    {{- end -}}
+                    {{- range $pages.Pages -}}
+                        {{- .Render "summary" -}}
+                    {{- end -}}
+                </div>
+                {{- partial "paginator.html" . -}}
+            </section>
+        {{- end -}}
+    </div>
+{{- end -}}

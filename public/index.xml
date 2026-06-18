@@ -2,17 +2,17 @@
     <channel>
         <title>Andrea Viselli</title>
         <link>https://andreaviselli.it/</link>
-        <description>Welcome to my personal page.</description>
+        <description>Welcome to my personal page</description>
         <generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>viselliandrea@gmail.com (Andrea Viselli)</managingEditor>
-            <webMaster>viselliandrea@gmail.com (Andrea Viselli)</webMaster><lastBuildDate>Fri, 10 Oct 2025 00:00:00 &#43;0000</lastBuildDate>
+            <webMaster>viselliandrea@gmail.com (Andrea Viselli)</webMaster><lastBuildDate>Tue, 21 Oct 2025 00:00:00 &#43;0000</lastBuildDate>
             <atom:link href="https://andreaviselli.it/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Insight: Comparing predictive ability in presence of instability over a very short time</title>
+    <title>Comparing predictive ability in presence of instability over a very short time</title>
     <link>https://andreaviselli.it/posts/pub_comparing/</link>
     <pubDate>Tue, 23 Sep 2025 00:00:00 &#43;0000</pubDate>
     <author>Andrea Viselli</author>
     <guid>https://andreaviselli.it/posts/pub_comparing/</guid>
-    <description><![CDATA[The paper Comparing predictive ability in presence of instability over a very short time, co-authored with my former Ph.D. advisors Fabrizio Iacone and Luca Rossini, is now published in The Econometrics Journal.
+    <description><![CDATA[Publication The paper Comparing predictive ability in presence of instability over a very short time, co-authored with my former Ph.D. advisors Fabrizio Iacone and Luca Rossini, is now published in The Econometrics Journal.
 Abstract We consider forecast comparison in the presence of instability when this affects only a short period of time. We demonstrate that global tests do not perform well in this case, as they were not designed to capture very short-lived instabilities, and their power vanishes altogether when the magnitude of the shock is very large.]]></description>
 </item>
 </channel>
