@@ -22,7 +22,7 @@ Further details on the methodology and the historical nowcast series are availab
 <!-- Keep height="500px" for consistency with the Python generating code -->
 {{< plotly json="/ITNOW/GDP_KDE_Ncast.json" height="510px" >}}  
 
-*Figure 1: Kernel density estimate of the latest Italian quarterly nominal GDP growth nowcasts in 2020 chain-linked values. Full corresponds to the time-varying Bates-Granger combination using the full model space, while Median corresponds to the median nowcast. This density describes the cross-sectional distribution of current model nowcasts and is not the source of the empirical prediction interval reported below.*
+*Figure 1: Kernel density estimate of the latest Italian quarterly nominal GDP growth nowcasts in 2020 chain-linked values. Full corresponds to the time-varying Bates-Granger combination using the full model space, while Median corresponds to the median nowcast. This density describes the cross-sectional distribution of current model nowcasts.*
 
 &nbsp;
 
@@ -32,7 +32,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 {{< plotly json="/ITNOW/GDP_Growth_Ncast.json" height="510px" >}}
 
-*Figure 2: History of the Italian quarterly nominal GDP growth nowcasts using the full model-space Bates-Granger combination and realizations in 2020 chain-linked values. Prior to the latest nowcast, pseudo-real-time nowcasts are displayed. The shaded band is a 90% empirical prediction interval: at each date, the 5th and 95th percentiles of the historical full-combination nowcast errors are added to that date's full-combination nowcast. The interval is therefore not the cross-model distribution of current forecasts and is not mechanically centered around the cross-sectional median nowcast.*
+*Figure 2: History of the Italian quarterly nominal GDP growth nowcasts using the full model-space Bates-Granger combination and realizations in 2020 chain-linked values. Prior to the latest nowcast, pseudo-real-time nowcasts are displayed. The shaded band is the 90% empirical prediction interval formed by centering the 5th and 95th percentiles of the historical nowcast error distribution about each nowcast.*
 
 &nbsp;
 
@@ -40,7 +40,7 @@ Further details on the methodology and the historical nowcast series are availab
 |----------------------|--------------------|---------------|---------------|
 | 0.13                 | 0.42               | -0.69         | 1.76          |
 
-*Table 1: Latest full model-space Bates-Granger nowcast and 90% empirical prediction interval bounds. The bounds are obtained from historical full-combination nowcast errors, not from the cross-sectional distribution of current model nowcasts (see Figure 2).*
+*Table 1: Latest full model-space Bates-Granger nowcast and 90% empirical prediction interval bounds (see Figure 2).*
 
 &nbsp;
 
