@@ -15,24 +15,24 @@
     "Quarter": "N/A",
     "Month": 5,
     "Year": 2026,
-    "Backcast": 0.0023,
-    "Nowcast": 0.0053,
-    "5Perc": -0.0015,
-    "95Perc": 0.013300000000000001,
+    "Backcast": 0.0013,
+    "Nowcast": 0.0042,
+    "5Perc": -0.0069,
+    "95Perc": 0.0176,
     "Nowcast (YoY)": "N/A",
     "Preliminary": "N/A"
   },
   "tables": {
     "growth": {
       "date": "2026-05-01",
-      "QoQ % Change (back)": 0.23,
-      "QoQ % Change (now)": 0.53,
-      "5% Pr. (now)": -0.15,
-      "95% Pr. (now)": 1.33
+      "QoQ % Change (back)": 0.13,
+      "QoQ % Change (now)": 0.42,
+      "5% Pr. (now)": -0.69,
+      "95% Pr. (now)": 1.76
     },
     "level": {
       "quarter": "Q2-2026",
-      "QoQ % Change": 0.53,
+      "QoQ % Change": 0.42,
       "YoY % Change": null,
       "Carry Over": null,
       "Level (Bln \u20ac)": null

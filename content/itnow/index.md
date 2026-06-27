@@ -22,7 +22,7 @@ Further details on the methodology and the historical nowcast series are availab
 <!-- Keep height="500px" for consistency with the Python generating code -->
 {{< plotly json="/ITNOW/GDP_KDE_Ncast.json" height="510px" >}}  
 
-*Figure 1: Kernel density estimate based on the full panel of quarterly nominal GDP growth nowcasts in 2020 chain-linked values. Full and Skilled correspond to time-varying combination schemes using, respectively, the full set of methods and the selected "skilled" set of top five nowcasts, while Median corresponds to the median nowcast.*
+*Figure 1: Kernel density estimate of the latest Italian quarterly nominal GDP growth nowcasts in 2020 chain-linked values. Full corresponds to the time-varying Bates-Granger combination using the full model space, while Median corresponds to the median nowcast. This density describes the cross-sectional distribution of current model nowcasts and is not the source of the empirical prediction interval reported below.*
 
 &nbsp;
 
@@ -32,15 +32,15 @@ Further details on the methodology and the historical nowcast series are availab
 
 {{< plotly json="/ITNOW/GDP_Growth_Ncast.json" height="510px" >}}
 
-*Figure 2: History of the Italian quarterly nominal GDP growth nowcasts using the skilled combination of top five methods and realizations in 2020 chain-linked values. Prior to the latest nowcast, pseudo-real-time nowcasts are displayed. The shaded band is a 90% empirical prediction interval based on the 5th and 95th percentiles of the historical skilled-combination nowcast errors.*
+*Figure 2: History of the Italian quarterly nominal GDP growth nowcasts using the full model-space Bates-Granger combination and realizations in 2020 chain-linked values. Prior to the latest nowcast, pseudo-real-time nowcasts are displayed. The shaded band is a 90% empirical prediction interval: at each date, the 5th and 95th percentiles of the historical full-combination nowcast errors are added to that date's full-combination nowcast. The interval is therefore not the cross-model distribution of current forecasts and is not mechanically centered around the cross-sectional median nowcast.*
 
 &nbsp;
 
 | QoQ % Change (back) | QoQ % Change (now) | 5% Pr. (now) | 95% Pr. (now) |
 |----------------------|--------------------|---------------|---------------|
-| 0.23                 | 0.53               | -0.15         | 1.33          |
+| 0.13                 | 0.42               | -0.69         | 1.76          |
 
-*Table 1: Latest skilled-combination nowcast and 90% empirical prediction interval bounds. The bounds are obtained from historical skilled-combination nowcast errors, not from the cross-sectional distribution of current model nowcasts (see Figure 2).*
+*Table 1: Latest full model-space Bates-Granger nowcast and 90% empirical prediction interval bounds. The bounds are obtained from historical full-combination nowcast errors, not from the cross-sectional distribution of current model nowcasts (see Figure 2).*
 
 &nbsp;
 
@@ -52,7 +52,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 {{< plotly json="/ITNOW/GDP_Level_Ncast.json" height="510px" >}}  
 
-*Figure 3: History of the Italian quarterly Nominal GDP level nowcasts using the skilled combination of top five methods and realizations in 2020 chain-linked values (billions of euros). Note that, prior to the latest nowcast, pseudo–real-time nowcasts are displayed (zoom in for more details).*
+*Figure 3: History of the Italian quarterly nominal GDP level nowcasts using the full model-space Bates-Granger combination and realizations in 2020 chain-linked values (billions of euros). Prior to the latest nowcast, pseudo-real-time nowcasts are displayed.*
 
 &nbsp;
 
@@ -60,7 +60,7 @@ Further details on the methodology and the historical nowcast series are availab
 |---------------|--------------|-------------|--------|
 | 0.05          | 0.55         | 0.05        | 489.21 |
 
-*Table 2: Nowcasted QoQ and YoY growth rates, carry-over annual effect, and GDP level (see Figure 2). Note that the carry-over annual effect is unavailable for the first quarter of the year, and coincides with the YoY % Change in the last quarter.*
+*Table 2: Nowcasted QoQ and YoY growth rates, carry-over annual effect, and GDP level from the full model-space Bates-Granger combination (see Figure 3). Note that the carry-over annual effect is unavailable for the first quarter of the year, and coincides with the YoY % Change in the last quarter.*
 
 &nbsp;
 
@@ -70,7 +70,9 @@ Nowcasting methods aim to provide the general public — such as policymakers, m
 
 For example, the quarterly Italian GDP figure is published one month after the reference quarter. This means that the Q1 figure (covering January, February, and March) is only released at the beginning of April. However, industrial production — which is a strong predictor of the GDP — is released monthly and can therefore be used to nowcast GDP.
 
+<!--
 The econometric methodology applied in this initiative is based on the working paper *“Skilled nowcast combinations during crises”* (A. Viselli). The corresponding code will soon be made publicly available on GitHub.
+-->
 
 &nbsp;
 
@@ -82,7 +84,7 @@ The latest ISTAT release (Q1:2026, preliminary estimate of GDP) can be found [he
 
 An Italian economic calendar is available [here](https://it.tradingeconomics.com/italy/calendar).
 
-
+<!--
 &nbsp;
 
 ---
@@ -90,3 +92,4 @@ An Italian economic calendar is available [here](https://it.tradingeconomics.com
 You can **cite** this initiative through the paper: 
 
 A. Viselli, **Skilled nowcast combinations during crises** (R&R at *Studies in Nonlinear Dynamics and Econometrics*).
+-->
