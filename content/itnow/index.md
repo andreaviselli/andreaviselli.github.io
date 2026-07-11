@@ -15,14 +15,14 @@ Further details on the methodology and the historical nowcast series are availab
 
 &nbsp;
 
-## 📊 Quarterly Growth Nowcast Density (Last Update: May, 2026)
+## 📊 Quarterly Growth Nowcast Density (Last Update: Jun, 2026)
 
 &nbsp;
 
 <!-- Keep height="500px" for consistency with the Python generating code -->
 {{< plotly json="/ITNOW/GDP_KDE_Ncast.json" height="510px" >}}  
 
-*Figure 1: Kernel density estimate of the latest Italian quarterly nominal GDP growth nowcasts in 2020 chain-linked values. Full corresponds to the time-varying Bates-Granger combination using the full model space, while Median corresponds to the median nowcast. This density describes the cross-sectional distribution of current model nowcasts.*
+*Figure 1: Kernel density estimate of the latest Italian quarterly nominal GDP growth nowcasts in 2020 chain-linked values. Full corresponds to the time-varying Bates-Granger combination using the full model space, while Median corresponds to the median nowcast. This density describes the cross-sectional distribution of current model nowcasts and is not the source of the empirical prediction interval reported below.*
 
 &nbsp;
 
@@ -32,19 +32,19 @@ Further details on the methodology and the historical nowcast series are availab
 
 {{< plotly json="/ITNOW/GDP_Growth_Ncast.json" height="510px" >}}
 
-*Figure 2: History of the Italian quarterly nominal GDP growth nowcasts using the full model-space Bates-Granger combination and realizations in 2020 chain-linked values. Prior to the latest nowcast, pseudo-real-time nowcasts are displayed. The shaded band is the 90% empirical prediction interval formed by centering the 5th and 95th percentiles of the historical nowcast error distribution about each nowcast.*
+*Figure 2: History of the Italian quarterly nominal GDP growth nowcasts using the full model-space Bates-Granger combination and realizations in 2020 chain-linked values. Prior to the latest nowcast, pseudo-real-time nowcasts are displayed. The shaded band is a 90% empirical prediction interval: at each date, the 5th and 95th percentiles of the historical full-combination nowcast errors are added to that date's full-combination nowcast. The interval is therefore not the cross-model distribution of current forecasts and is not mechanically centered around the cross-sectional median nowcast.*
 
 &nbsp;
 
 | QoQ % Change (back) | QoQ % Change (now) | 5% Pr. (now) | 95% Pr. (now) |
 |----------------------|--------------------|---------------|---------------|
-| 0.13                 | 0.42               | -0.69         | 1.76          |
+| 0.45                 | 0.42               | -0.70         | 1.69          |
 
-*Table 1: Latest full model-space Bates-Granger nowcast and 90% empirical prediction interval bounds (see Figure 2).*
+*Table 1: Latest full model-space Bates-Granger nowcast and 90% empirical prediction interval bounds. The bounds are obtained from historical full-combination nowcast errors, not from the cross-sectional distribution of current model nowcasts (see Figure 2).*
 
 &nbsp;
 
-## 🧭 Reference Quarter Nowcast (Last Update: Q1-2026)
+## 🧭 Reference Quarter Nowcast (Last Update: Q2-2026)
 
 &nbsp;
 
@@ -58,7 +58,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 | QoQ % Change  | YoY % Change | Carry-Over  | Level (Billion €) |
 |---------------|--------------|-------------|--------|
-| 0.05          | 0.55         | 0.05        | 489.21 |
+| 0.42          | 1.22         | 0.70        | 492.53 |
 
 *Table 2: Nowcasted QoQ and YoY growth rates, carry-over annual effect, and GDP level from the full model-space Bates-Granger combination (see Figure 3). Note that the carry-over annual effect is unavailable for the first quarter of the year, and coincides with the YoY % Change in the last quarter.*
 
@@ -80,7 +80,7 @@ The econometric methodology applied in this initiative is based on the working p
 
 Click [here](/ITNOW/ITNOW_History.xlsx) to download the historical nowcast series. Note that nowcasts prior to October 2024 are excluded, as they were derived from an out-of-sample exercise.  
 
-The latest ISTAT release (Q1:2026, preliminary estimate of GDP) can be found [here](https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q1-2026/).
+The latest ISTAT release (Q2:2026, preliminary estimate of GDP) can be found [here](https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q2-2026/).
 
 An Italian economic calendar is available [here](https://it.tradingeconomics.com/italy/calendar).
 
