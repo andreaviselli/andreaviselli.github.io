@@ -1,41 +1,41 @@
 {
-  "vintage": "20260616",
-  "eval_end": "2026-05-01",
-  "is_quarter_end": false,
-  "monthly_update": "May, 2026",
-  "reference_quarter_update": "Q1-2026",
+  "vintage": "20260711",
+  "eval_end": "2026-06-01",
+  "is_quarter_end": true,
+  "monthly_update": "Jun, 2026",
+  "reference_quarter_update": "Q2-2026",
   "nowcast_quarter": "Q2-2026",
   "istat_release": {
-    "quarter": 1,
+    "quarter": 2,
     "year": 2026,
-    "line": "The latest ISTAT release (Q1:2026, preliminary estimate of GDP) can be found [here](https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q1-2026/)."
+    "line": "The latest ISTAT release (Q2:2026, preliminary estimate of GDP) can be found [here](https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q2-2026/)."
   },
   "history_row": {
-    "Time": "2026-06-16",
-    "Quarter": "N/A",
-    "Month": 5,
+    "Time": "2026-07-11",
+    "Quarter": "Q2",
+    "Month": 6,
     "Year": 2026,
-    "Backcast": 0.0023,
-    "Nowcast": 0.0053,
-    "5Perc": -0.0015,
-    "95Perc": 0.013300000000000001,
-    "Nowcast (YoY)": "N/A",
+    "Backcast": 0.0045000000000000005,
+    "Nowcast": 0.0042,
+    "5Perc": -0.006999999999999999,
+    "95Perc": 0.0169,
+    "Nowcast (YoY)": 0.012199999999999999,
     "Preliminary": "N/A"
   },
   "tables": {
     "growth": {
-      "date": "2026-05-01",
-      "QoQ % Change (back)": 0.23,
-      "QoQ % Change (now)": 0.53,
-      "5% Pr. (now)": -0.15,
-      "95% Pr. (now)": 1.33
+      "date": "2026-06-01",
+      "QoQ % Change (back)": 0.45,
+      "QoQ % Change (now)": 0.42,
+      "5% Pr. (now)": -0.7,
+      "95% Pr. (now)": 1.69
     },
     "level": {
       "quarter": "Q2-2026",
-      "QoQ % Change": 0.53,
-      "YoY % Change": null,
-      "Carry Over": null,
-      "Level (Bln \u20ac)": null
+      "QoQ % Change": 0.42,
+      "YoY % Change": 1.22,
+      "Carry Over": 0.7,
+      "Level (Bln \u20ac)": 492.53
     }
   }
 }

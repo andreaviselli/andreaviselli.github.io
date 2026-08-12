@@ -1,3 +1,3 @@
 ---
-title: "ETS4 Archive"
+title: "ETS4"
 ---
