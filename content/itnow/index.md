@@ -15,7 +15,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 &nbsp;
 
-## 📊 Quarterly Growth Nowcast Density (Last Update: Jun, 2026)
+## 📊 Quarterly Growth Nowcast Density (Last Update: Jul, 2026)
 
 &nbsp;
 
@@ -38,7 +38,7 @@ Further details on the methodology and the historical nowcast series are availab
 
 | QoQ % Change (back) | QoQ % Change (now) | 5% Pr. (now) | 95% Pr. (now) |
 |----------------------|--------------------|---------------|---------------|
-| 0.45                 | 0.42               | -0.70         | 1.69          |
+| 0.27                 | 0.55               | -0.57         | 1.77          |
 
 *Table 1: Latest full model-space Bates-Granger nowcast and 90% empirical prediction interval bounds. The bounds are obtained from historical full-combination nowcast errors, not from the cross-sectional distribution of current model nowcasts (see Figure 2).*
 
