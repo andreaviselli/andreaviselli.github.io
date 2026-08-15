@@ -7,16 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <managingEditor>viselliandrea@gmail.com (Andrea Viselli)</managingEditor>
-    <webMaster>viselliandrea@gmail.com (Andrea Viselli)</webMaster>
-    <lastBuildDate>Wed, 22 Jul 2026 00:00:00 +0000</lastBuildDate><atom:link href="https://andreaviselli.it/ets4/index.xml" rel="self" type="application/rss+xml" />
+    <webMaster>viselliandrea@gmail.com (Andrea Viselli)</webMaster><atom:link href="https://andreaviselli.it/ets4/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>ETS4: AI-assisted peer review</title>
-      <link>https://andreaviselli.it/ets4/main/</link>
-      <pubDate>Wed, 22 Jul 2026 00:00:00 +0000</pubDate>
+      <title></title>
+      <link>https://andreaviselli.it/ets4/method/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       <author>viselliandrea@gmail.com (Andrea Viselli)</author>
-      <guid>https://andreaviselli.it/ets4/main/</guid>
-      <description>ETS4 — Economic Time Series 4Casting — is an experimental, AI-assisted review system for research on economic time-series forecasting. It reads a complete manuscript, designs a paper-specific panel of referees, runs each review separately, and produces a final editor&amp;rsquo;s report.
-ETS4 is meant to support human peer review, not replace it. It cannot prove that a paper is correct, decide what research society should value, or remove the need for an accountable human editor.</description>
+      <guid>https://andreaviselli.it/ets4/method/</guid>
+      <description>How does the review work? The workflow follows three stages. The editor opens the process, separate referees review the manuscript, and the editor closes it. The editor and referees are model roles, but the order, file handling, retries, and separation between reviews are controlled in Python.
+The initial editor designs the panel The initial editor reads the complete manuscript and identifies five to eight main components or claims that need review.</description>
+    </item>
+    
+    <item>
+      <title>ETS4</title>
+      <link>https://andreaviselli.it/ets4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <author>viselliandrea@gmail.com (Andrea Viselli)</author>
+      <guid>https://andreaviselli.it/ets4/</guid>
+      <description>Economic Time Series 4Casting (ETS4) is an experimental, AI-driven review process designed to mimic the review mechanism used by academic journals, with a specific focus on research in economic time-series forecasting.
+I created ETS4 to review my own research, but it may also be useful to other researchers working in the field. I share the source code so that it can be easily inspected, modified, adapted to other fields, or repurposed for other applications.</description>
     </item>
     
   </channel>

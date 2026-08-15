@@ -11,9 +11,8 @@ draft: false
 &nbsp;
 
 ## 🧩 Working Papers
-- F. Iacone and A. Viselli, *Robust forecast evaluation under extreme shocks*. (submitted)
-- A. Viselli, *Skilled nowcast combinations during crises* (R&R at *Studies in Nonlinear Dynamics and Econometrics*).
-- F. Ravazzolo, L. Rossini, and A. Viselli, *Modeling European electricity market integration during turbulent times*. (submitted) [[↗ Working paper](https://arxiv.org/abs/2506.23289) — [↗ Poster](/Poster-AMCW25-Oslo.pdf)]
+- F. Iacone and A. Viselli, *Robust forecast evaluation under extreme shocks*.
+- F. Ravazzolo, L. Rossini, and A. Viselli, *Modeling European electricity market integration during turbulent times*. [[↗ Working paper](https://arxiv.org/abs/2506.23289) — [↗ Poster](/Poster-AMCW25-Oslo.pdf)]
 
 &nbsp;
 

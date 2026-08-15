@@ -52,7 +52,7 @@ languageName = "English"
     pre = ""
     post = ""
     name = "ETS4"
-    url = "/ets4/main/"
+    url = "/ets4/"
     title = ""
   [[menu.main]]
     weight = 5
