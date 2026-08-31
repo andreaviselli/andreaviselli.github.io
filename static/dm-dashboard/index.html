@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#10372c">
+  <meta name="description" content="Interactive comparison of the Diebold-Mariano test and a winsorised DM test under extreme, short-lived shocks.">
+  <title>DM Test Explorer · Robust forecast evaluation</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="hero">
+    <div class="rings" aria-hidden="true"></div>
+    <div class="hero-inner">
+      <div class="brand">
+        <svg viewBox="0 0 64 64" aria-hidden="true">
+          <circle cx="32" cy="32" r="25" fill="none" stroke="currentColor" stroke-width="3.5" stroke-dasharray="112 46" transform="rotate(-28 32 32)"></circle>
+          <circle cx="32" cy="32" r="16" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="62 38" transform="rotate(20 32 32)"></circle>
+          <path d="M20 35c8-13 18-16 29-12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path>
+        </svg>
+        <div><small>SURE-AI research</small><strong>SURE-AI</strong></div>
+      </div>
+      <div class="hero-copy">
+        <p class="kicker">Interactive companion</p>
+        <h1>Robust forecast evaluation under extreme shocks</h1>
+        <p class="deck">See when a few extreme observations make the standard DM test lose power, then evaluate the same comparison on your own forecast series.</p>
+        <p class="authors">Fabrizio Iacone · Andrea Viselli</p>
+      </div>
+      <a class="button light" href="https://github.com/andreaviselli/robust-fcast-eval-extreme-shocks" target="_blank" rel="noopener">Replication package</a>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="takeaway">
+      <span>01</span>
+      <p><strong>Short, extreme shocks can inflate the estimated long-run variance and hide an ordinary-period difference in predictive accuracy.</strong> Winsorisation caps only the observations inside a pre-specified window.</p>
+    </section>
+
+    <nav class="tabs" aria-label="Dashboard sections">
+      <button class="tab active" type="button" data-tab="simulation" aria-selected="true">Monte Carlo explorer</button>
+      <button class="tab" type="button" data-tab="data" aria-selected="false">Test your forecasts</button>
+      <button class="tab" type="button" data-tab="method" aria-selected="false">Method note</button>
+    </nav>
+
+    <section class="panel active" id="simulation" data-panel="simulation">
+      <div class="section-head">
+        <div><p class="index">01 · Monte Carlo study</p><h2>Change the DGP</h2></div>
+        <p>The simulated loss differential is <em>d<sub>t</sub> = κ + θI<sub>t</sub>(τ;m) + u<sub>t</sub></em>, with <em>u<sub>t</sub> = φu<sub>t−1</sub> + ε<sub>t</sub></em>. The instability window is treated as known in advance.</p>
+      </div>
+
+      <div class="workspace">
+        <aside class="card controls">
+          <div class="card-head"><div><p class="label">Simulation controls</p><h3>One design</h3></div><button class="ghost" id="preset" type="button">SPF preset</button></div>
+          <div class="grid controls-grid">
+            <label>Ordinary-period gap, κ<input id="kappa" type="number" step="0.1" value="-0.8"></label>
+            <label>Shock-specific gap, θ<input id="theta" type="number" step="1" value="-80"></label>
+            <label>Persistence, φ<input id="phi" type="number" min="-0.95" max="0.95" step="0.05" value="0.25"></label>
+            <label>Shock length, m<input id="m" type="number" min="1" step="1" value="3"></label>
+            <label>Sample size, T<input id="n" type="number" min="20" step="1" value="100"></label>
+            <label>Shock starts at<input id="start" type="number" min="1" step="1" value="81"></label>
+            <label>Innovation variance, σ²<input id="sigma2" type="number" min="0.001" step="0.1" value="1"></label>
+            <label>Bartlett bandwidth, M<input id="bandwidth" type="number" min="0" step="1" value="10"></label>
+            <label>Replications<select id="reps"><option value="1000">1,000 · quick</option><option value="5000" selected>5,000 · balanced</option><option value="10000">10,000 · paper scale</option><option value="25000">25,000 · precise</option></select></label>
+            <label>Reference<select id="reference"><option value="fixed-b" selected>Fixed-smoothing, 5%</option><option value="normal">Standard normal, 5%</option></select></label>
+            <label>Random seed<input id="seed" type="number" step="1" value="0"></label>
+          </div>
+          <button class="button primary full" id="run" type="button">Run Monte Carlo</button>
+          <div class="progress"><div id="progress"></div></div>
+          <p class="status" id="status">Ready. The default is the paper's SPF-calibrated DGP.</p>
+        </aside>
+
+        <div class="results">
+          <div class="metrics">
+            <article class="card metric"><p>DM rejection frequency</p><strong id="dm-rate">—</strong><small id="dm-se">Monte Carlo SE —</small></article>
+            <article class="card metric highlight"><p>DM* rejection frequency</p><strong id="dmstar-rate">—</strong><small id="dmstar-se">Monte Carlo SE —</small></article>
+            <article class="card metric"><p>DM* − DM</p><strong id="difference">—</strong><small id="critical">Critical value —</small></article>
+          </div>
+          <article class="card chart-card">
+            <div class="card-head"><div><p class="label">One simulated path</p><h3>Raw and winsorised loss differential</h3></div><div class="legend"><span class="raw"></span>Raw <span class="win"></span>Winsorised</div></div>
+            <canvas id="mc-chart" height="310" aria-label="Simulated loss-differential chart"></canvas>
+            <p class="note" id="mc-note">The declared shock window will be shaded after the simulation runs.</p>
+          </article>
+          <article class="card interpretation"><p class="label">Interpretation</p><p id="interpretation">Run the experiment to obtain an interpretation of this design.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel" id="data" data-panel="data" hidden>
+      <div class="section-head">
+        <div><p class="index">02 · Your data</p><h2>Test two forecast series</h2></div>
+        <p>Upload outcomes and two forecasts, two forecast-error series, or a pre-computed loss differential. The file stays in your browser.</p>
+      </div>
+
+      <div class="upload-grid">
+        <article class="card upload">
+          <p class="label">CSV input</p><h3>Load data</h3>
+          <p>Accepted column sets: <code>outcome, forecast_a, forecast_b</code>; <code>error_a, error_b</code>; or <code>loss_diff</code>. A date column is optional.</p>
+          <label class="drop" for="file"><input id="file" type="file" accept=".csv,text/csv"><strong>Choose a CSV file</strong><small id="file-name">No file selected</small></label>
+          <div class="inline"><a class="ghost link" href="data/template_forecasts.csv" download>Download template</a></div>
+          <div class="summary" id="summary">No data loaded.</div>
+        </article>
+
+        <article class="card data-controls">
+          <div class="card-head"><div><p class="label">Evaluation settings</p><h3>Declare the instability window</h3></div><span class="badge">Local processing</span></div>
+          <div class="grid controls-grid">
+            <label>Input format<select id="format"><option value="auto" selected>Auto-detect</option><option value="forecasts">Outcome + forecasts</option><option value="errors">Two error series</option><option value="loss">Loss differential</option></select></label>
+            <label>Loss function<select id="loss"><option value="squared" selected>Squared loss</option><option value="absolute">Absolute loss</option></select></label>
+            <label>First row in window<input id="window-start" type="number" min="1" value="1"></label>
+            <label>Last row in window<input id="window-end" type="number" min="1" value="1"></label>
+            <label>Bartlett bandwidth, M<input id="data-bandwidth" type="number" min="0" value="3"></label>
+            <label>Reference<select id="data-reference"><option value="fixed-b" selected>Fixed-smoothing, 5%</option><option value="normal">Standard normal, 5%</option></select></label>
+          </div>
+          <button class="button primary" id="evaluate" type="button">Evaluate forecasts</button>
+          <p class="status" id="data-status">Load a file, then specify a window independently of the desired result.</p>
+        </article>
+      </div>
+
+      <div class="metrics data-metrics">
+        <article class="card metric"><p>Ordinary DM statistic</p><strong id="data-dm">—</strong><small id="data-dm-decision">Decision —</small></article>
+        <article class="card metric highlight"><p>Winsorised DM* statistic</p><strong id="data-dmstar">—</strong><small id="data-dmstar-decision">Decision —</small></article>
+        <article class="card metric"><p>Observations modified</p><strong id="changed">—</strong><small id="bounds">Stable range —</small></article>
+      </div>
+
+      <div class="data-results">
+        <article class="card chart-card"><div class="card-head"><div><p class="label">Diagnostic</p><h3>Loss differential</h3></div><button class="ghost" id="export" type="button" disabled>Export results</button></div><canvas id="data-chart" height="340"></canvas><p class="note" id="data-note">Raw and winsorised series will appear here.</p></article>
+        <article class="card method-warning"><p class="label">Estimand warning</p><h3>What DM* means</h3><p>DM* tests equal predictive ability outside the pre-specified instability window. It is not evidence about relative performance inside that window.</p><div id="numbers" class="numbers"><div><span>Sample size</span><strong>—</strong></div><div><span>Mean loss differential</span><strong>—</strong></div><div><span>Winsorised mean</span><strong>—</strong></div><div><span>Critical value</span><strong>—</strong></div></div></article>
+      </div>
+    </section>
+
+    <section class="panel" id="method" data-panel="method" hidden>
+      <div class="section-head"><div><p class="index">03 · Method note</p><h2>Same structure, different signal</h2></div><p>The ordinary and winsorised statistics use the same Bartlett long-run variance construction. Only the loss-differential series changes.</p></div>
+      <div class="method-grid">
+        <article class="card step"><span>1</span><h3>Form the loss differential</h3><p><em>d<sub>t</sub> = L(e<sub>A,t</sub>) − L(e<sub>B,t</sub>)</em>. Squared and absolute loss are available.</p></article>
+        <article class="card step"><span>2</span><h3>Cap the declared window</h3><p>Each observation inside the window is capped at the minimum or maximum observed outside it.</p></article>
+        <article class="card step"><span>3</span><h3>Estimate long-run variance</h3><p>The Bartlett weight at lag <em>j</em> is <em>(M − j)/M</em>, matching the replication code.</p></article>
+        <article class="card step"><span>4</span><h3>Use the correct null</h3><p>DM concerns all dates. DM* concerns only dates outside the declared instability window.</p></article>
+      </div>
+      <article class="card anchor"><div><p class="label">Paper anchors</p><h3>Key numerical results</h3><p>SPF application: DM = 1.458, DM* = 6.147, and the 5% fixed-smoothing critical value is 2.261. SPF MSE is 4.51, compared with 31.17 for the zero-growth benchmark.</p></div><a class="button secondary" href="https://github.com/andreaviselli/robust-fcast-eval-extreme-shocks" target="_blank" rel="noopener">Open code and data</a></article>
+    </section>
+  </main>
+
+  <footer><div><strong>Robust forecast evaluation under extreme shocks</strong><p>Interactive companion for the Rome Conference on Macroeconometrics and Time Series, EIEF, 19–20 September 2026.</p></div><div><a href="https://andreaviselli.it">Andrea Viselli</a><a href="https://www.sure-ai.no">SURE-AI</a><a href="https://github.com/andreaviselli/robust-fcast-eval-extreme-shocks">Replication code</a></div></footer>
+
+  <script src="dm-core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
