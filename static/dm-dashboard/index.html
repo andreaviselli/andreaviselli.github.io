@@ -7,6 +7,7 @@
   <meta name="description" content="Interactive comparison of the Diebold-Mariano test and a winsorised DM test under extreme, short-lived shocks.">
   <title>DM Test Explorer · Robust forecast evaluation</title>
   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="revision.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -15,17 +16,17 @@
     <div class="rings" aria-hidden="true"></div>
     <div class="hero-inner">
       <div class="brand">
-        <svg viewBox="0 0 64 64" aria-hidden="true">
-          <circle cx="32" cy="32" r="25" fill="none" stroke="currentColor" stroke-width="3.5" stroke-dasharray="112 46" transform="rotate(-28 32 32)"></circle>
-          <circle cx="32" cy="32" r="16" fill="none" stroke="currentColor" stroke-width="3" stroke-dasharray="62 38" transform="rotate(20 32 32)"></circle>
-          <path d="M20 35c8-13 18-16 29-12" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"></path>
-        </svg>
-        <div><small>SURE-AI research</small><strong>SURE-AI</strong></div>
+        <div class="brand-lockup">
+          <img class="brand-logo" src="sure-ai-logo.svg" alt="SURE-AI logo">
+          <div><small>SURE-AI research</small><strong>SURE-AI</strong></div>
+        </div>
+        <p class="brand-funding">Funded by the Research Council of Norway</p>
+        <a class="brand-site" href="https://andreaviselli.it" target="_blank" rel="noopener">Website: andreaviselli.it</a>
       </div>
       <div class="hero-copy">
         <p class="kicker">Interactive companion</p>
         <h1>Robust forecast evaluation under extreme shocks</h1>
-        <p class="deck">See when a few extreme observations make the standard DM test lose power, then evaluate the same comparison on your own forecast series.</p>
+        <p class="deck">Check when extreme observations over a short period of time make the standard DM test lose power and perform the same comparison on your own forecast series.</p>
         <p class="authors">Fabrizio Iacone · Andrea Viselli</p>
       </div>
       <a class="button light" href="https://github.com/andreaviselli/robust-fcast-eval-extreme-shocks" target="_blank" rel="noopener">Replication package</a>
@@ -35,13 +36,13 @@
   <main id="main">
     <section class="takeaway">
       <span>01</span>
-      <p><strong>Short, extreme shocks can inflate the estimated long-run variance and hide an ordinary-period difference in predictive accuracy.</strong> Winsorisation caps only the observations inside a pre-specified window.</p>
+      <p><strong>Extreme observations over brief time periods can reduce the power of the Diebold–Mariano (DM) test.</strong> When the instability window is known in advance, the winsorised DM<sup>*</sup> test recovers the usual DM test’s power.</p>
     </section>
 
     <nav class="tabs" aria-label="Dashboard sections">
       <button class="tab active" type="button" data-tab="simulation" aria-selected="true">Monte Carlo explorer</button>
       <button class="tab" type="button" data-tab="data" aria-selected="false">Test your forecasts</button>
-      <button class="tab" type="button" data-tab="method" aria-selected="false">Method note</button>
+      <button class="tab" type="button" data-tab="method" aria-selected="false">Methodology</button>
     </nav>
 
     <section class="panel active" id="simulation" data-panel="simulation">
@@ -130,14 +131,14 @@
     </section>
 
     <section class="panel" id="method" data-panel="method" hidden>
-      <div class="section-head"><div><p class="index">03 · Method note</p><h2>Same structure, different signal</h2></div><p>The ordinary and winsorised statistics use the same Bartlett long-run variance construction. Only the loss-differential series changes.</p></div>
+      <div class="section-head"><div><p class="index">03 · Methodology</p><h2>The winsorised DM test</h2></div><p>The ordinary and winsorised DM statistics use the same Bartlett long-run variance estimate. Only the series of loss differentials changes.</p></div>
       <div class="method-grid">
         <article class="card step"><span>1</span><h3>Form the loss differential</h3><p><em>d<sub>t</sub> = L(e<sub>A,t</sub>) − L(e<sub>B,t</sub>)</em>. Squared and absolute loss are available.</p></article>
         <article class="card step"><span>2</span><h3>Cap the declared window</h3><p>Each observation inside the window is capped at the minimum or maximum observed outside it.</p></article>
-        <article class="card step"><span>3</span><h3>Estimate long-run variance</h3><p>The Bartlett weight at lag <em>j</em> is <em>(M − j)/M</em>, matching the replication code.</p></article>
-        <article class="card step"><span>4</span><h3>Use the correct null</h3><p>DM concerns all dates. DM* concerns only dates outside the declared instability window.</p></article>
+        <article class="card step"><span>3</span><h3>Estimate long-run variance</h3><p>The long-run variance is estimated using Bartlett weights:</p><p class="formula">σ̂<sup>2</sup> = γ̂<sub>0</sub> + 2∑<sub>j=1</sub><sup>M</sup> [(M − j)/M] γ̂<sub>j</sub>.</p></article>
+        <article class="card step"><span>4</span><h3>Perform the test</h3><p>At the 5% level, reject equal predictive ability when the absolute DM<sup>*</sup> statistic exceeds the selected critical value.</p></article>
       </div>
-      <article class="card anchor"><div><p class="label">Paper anchors</p><h3>Key numerical results</h3><p>SPF application: DM = 1.458, DM* = 6.147, and the 5% fixed-smoothing critical value is 2.261. SPF MSE is 4.51, compared with 31.17 for the zero-growth benchmark.</p></div><a class="button secondary" href="https://github.com/andreaviselli/robust-fcast-eval-extreme-shocks" target="_blank" rel="noopener">Open code and data</a></article>
+      <article class="card anchor"><div><p class="label">Paper empirical application</p><h3>Results</h3><p>SPF application: DM = 1.458, DM* = 6.147, and the 5% fixed-smoothing critical value is 2.261. SPF MSE is 4.51, compared with 31.17 for the zero-growth benchmark.</p></div><a class="button secondary" href="https://github.com/andreaviselli/robust-fcast-eval-extreme-shocks" target="_blank" rel="noopener">Open code and data</a></article>
     </section>
   </main>
 
@@ -145,5 +146,6 @@
 
   <script src="dm-core.js"></script>
   <script src="app.js"></script>
+  <script src="revision.js"></script>
 </body>
 </html>
