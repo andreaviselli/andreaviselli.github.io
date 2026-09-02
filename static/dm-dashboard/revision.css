@@ -1,0 +1,10 @@
+.hero-inner{grid-template-columns:minmax(190px,.62fr) minmax(0,2fr) minmax(180px,.65fr)}
+.brand{align-self:start;display:block}
+.brand-lockup{display:flex;gap:.8rem;align-items:center}
+.brand-logo{width:58px;height:58px;object-fit:contain}
+.brand strong{display:block}
+.brand-funding{max-width:19rem;margin:.85rem 0 .15rem;color:rgba(255,255,255,.78);font-size:.76rem;line-height:1.4}
+.brand-site{color:#e5ebbd;font-size:.76rem;font-weight:720}
+.step .formula{margin-top:.8rem;color:var(--pine-900);font-size:1.02rem;font-weight:650;line-height:1.45}
+@media(max-width:1120px){.hero-inner{grid-template-columns:160px minmax(0,1fr)}}
+@media(max-width:760px){.hero-inner{grid-template-columns:1fr}.brand-funding{max-width:24rem}}
