@@ -1,8 +1,8 @@
 {
-  "vintage": "20260812",
-  "eval_end": "2026-07-01",
+  "vintage": "20260915",
+  "eval_end": "2026-08-01",
   "is_quarter_end": false,
-  "monthly_update": "Jul, 2026",
+  "monthly_update": "Aug, 2026",
   "reference_quarter_update": "Q2-2026",
   "nowcast_quarter": "Q3-2026",
   "istat_release": {
@@ -11,28 +11,28 @@
     "line": "The latest ISTAT release (Q2:2026, preliminary estimate of GDP) can be found [here](https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q2-2026/)."
   },
   "history_row": {
-    "Time": "2026-08-12",
+    "Time": "2026-09-15",
     "Quarter": "N/A",
-    "Month": 7,
+    "Month": 8,
     "Year": 2026,
-    "Backcast": 0.0027,
-    "Nowcast": 0.0055000000000000005,
-    "5Perc": -0.005699999999999999,
-    "95Perc": 0.0177,
+    "Backcast": 0.0054,
+    "Nowcast": 0.0021,
+    "5Perc": -0.009000000000000001,
+    "95Perc": 0.0139,
     "Nowcast (YoY)": "N/A",
     "Preliminary": "N/A"
   },
   "tables": {
     "growth": {
-      "date": "2026-07-01",
-      "QoQ % Change (back)": 0.27,
-      "QoQ % Change (now)": 0.55,
-      "5% Pr. (now)": -0.57,
-      "95% Pr. (now)": 1.77
+      "date": "2026-08-01",
+      "QoQ % Change (back)": 0.54,
+      "QoQ % Change (now)": 0.21,
+      "5% Pr. (now)": -0.9,
+      "95% Pr. (now)": 1.39
     },
     "level": {
       "quarter": "Q3-2026",
-      "QoQ % Change": 0.55,
+      "QoQ % Change": 0.21,
       "YoY % Change": null,
       "Carry Over": null,
       "Level (Bln \u20ac)": null
