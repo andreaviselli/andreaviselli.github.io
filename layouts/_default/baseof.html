@@ -9,7 +9,7 @@
         <title>{{ block "title" . }}{{ .Site.Title }}{{ end }}</title>
 
         {{ if .Params.plotly }}
-            <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+            <script src="https://cdn.plot.ly/plotly-3.1.0.min.js"></script>
         {{ end }}
 
         {{- partial "head/meta.html" . -}}
