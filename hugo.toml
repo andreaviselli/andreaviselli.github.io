@@ -126,7 +126,7 @@ languageName = "English"
       post = ""
       # whether to use typeit animation for title name
       # 是否为标题显示打字机动画
-      typeit = true
+      typeit = false
 
   # Footer config
   # 页面底部信息配置
@@ -247,7 +247,7 @@ languageName = "English"
       gravatarEmail = ""
       # URL of avatar shown in home page
       # 主页显示头像的 URL
-      avatarURL = "images/Portrait_Andrea Viselli-2.jpg"
+      avatarURL = "images/Portrait_Oslo_2026.png"
       # title shown in home page (HTML format is supported)
       # 主页显示的网站标题 (支持 HTML 格式)
       title = ""

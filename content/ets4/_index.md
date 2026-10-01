@@ -4,6 +4,7 @@ draft: false
 toc: true
 plotly: true
 layout: single
+deck: "AI-powered peer-review workflow for economic time-series forecasting research."
 aliases:
   - "/ets4/main/"
   - "/ets4/2025-10/"

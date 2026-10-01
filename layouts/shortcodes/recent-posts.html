@@ -1,0 +1,10 @@
+{{- $posts := where .Site.RegularPages "Section" "posts" -}}
+{{- $posts = where $posts "Draft" false -}}
+<div class="archive-posts" aria-label="Recent posts">
+    {{- range first 10 $posts.ByDate.Reverse -}}
+        <article class="archive-post">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+            <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        </article>
+    {{- end -}}
+</div>

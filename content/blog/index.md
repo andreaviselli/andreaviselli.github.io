@@ -1,10 +1,12 @@
 ---
-title: "Archive"
+title: "Blog"
 date: 2023-11-19
 draft: false
 ---
 
-## 🗂️ Archive
+# 🗂️ Archive
+
+{{< recent-posts >}}
 
 Browse the [**complete list of posts**](/posts/).
 

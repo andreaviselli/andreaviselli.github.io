@@ -1,0 +1,8 @@
+<article class="research-entry">
+    <div class="research-entry-meta">
+        <span>{{ .Get "kind" }}</span>
+        {{- with .Get "year" }}<span>{{ . }}</span>{{ end -}}
+    </div>
+    <h3>{{ .Get "title" }}</h3>
+    <div class="research-entry-detail">{{ .Inner | markdownify }}</div>
+</article>

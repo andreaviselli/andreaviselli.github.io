@@ -5,15 +5,13 @@ draft: false
 plotly: true
 ---
 
-&nbsp;
-
 ## 🇮🇹 Nowcasting Italian Quarterly Gross Domestic Product
 
 This initiative provides nowcasts and backcasts for quarter-on-quarter (QoQ) nominal Gross Domestic Product (GDP, 2020 chain-linked) growth on a **monthly** basis.
 
 Further details on the methodology and the historical nowcast series are available at the end of the page.
 
-&nbsp;
+{{< itnow-summary >}}
 
 ## 📊 Quarterly Growth Nowcast Density (Last Update: Aug, 2026)
 

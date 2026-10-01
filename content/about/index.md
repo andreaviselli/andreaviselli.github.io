@@ -5,16 +5,13 @@ draft: false
 ---
 
 *A reflective glimpse of the plain near Pavia.*
-![mypic0](images/land.jpg " ")
 
-&nbsp;
+![Plain near Pavia at sunset](images/land.jpg)
 
 ## 📬 Contacts
 
 Feel free to contact me at [viselliandrea@gmail.com](mailto:viselliandrea@gmail.com). 
 My *curriculum vitae* is available [**here**](/ViselliCV.pdf).
-
-&nbsp;
 
 ## 💻 Bio (short)
 
@@ -23,8 +20,6 @@ I am currently working as a Postdoctoral Researcher in the [SURE-AI](https://www
 Previously, I was a Postdoctoral Researcher at the [Department of Economics, Management, and Quantitative Methods](https://demm.unimi.it/it) at the University of Milan. 
 
 I hold a Ph.D. in Economics jointly awarded by the [University of Milan and the University of Pavia](https://www.phdeconomics.unimi.it/) in February 2025.
-
-&nbsp; 
 
 ## 📖 Research interests
 
