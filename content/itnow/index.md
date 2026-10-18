@@ -2,92 +2,64 @@
 title: "ITNOW"
 date: 2023-11-19T22:38:36+01:00
 draft: false
-plotly: true
 ---
 
-## 🇮🇹 Nowcasting Italian Quarterly Gross Domestic Product
+## Nowcasting Italian Real Gross Domestic Product
 
-This initiative provides nowcasts and backcasts for quarter-on-quarter (QoQ) nominal Gross Domestic Product (GDP, 2020 chain-linked) growth on a **monthly** basis.
+We provide monthly nowcasts of Italian quarterly real Gross Domestic Product in **2020 chain-linked terms**.
+The nowcasting model is based on the industrial production index, the EUROCOIN indicator, and two static principal-component factors from a small panel of economic time series, in a linear bridge equation.
 
-Further details on the methodology and the historical nowcast series are available at the end of the page.
+{{< itnow_summary >}}
 
-{{< itnow-summary >}}
+Live releases begin in **November 2026**, starting with the nowcast for **October 2026**.
 
-## 📊 Quarterly Growth Nowcast Density (Last Update: Aug, 2026)
-
-&nbsp;
-
-<!-- Keep height="500px" for consistency with the Python generating code -->
-{{< plotly json="/ITNOW/GDP_KDE_Ncast.json" height="510px" >}}  
-
-*Figure 1: Kernel density estimate of the latest Italian quarterly nominal GDP growth nowcasts in 2020 chain-linked values. Full corresponds to the time-varying Bates-Granger combination using the full model space, while Median corresponds to the median nowcast. This density describes the cross-sectional distribution of current model nowcasts and is not the source of the empirical prediction interval reported below.*
+## Historical Quarterly Growth Nowcasts
 
 &nbsp;
 
-## 📈 Historical Quarterly Growth Nowcasts
+{{< itnow_plot file="GDP_Growth_Ncast.json" >}}
+
+*Figure 1: Quarterly real GDP growth (quarter-on-quarter, % change) nowcasts and realizations in chain-linked terms. The shaded areas correspond to empirical 90% prediction intervals, based on earlier forecast errors from the same month within each quarter; the first interval requires 40 released quarterly errors. The October 2026 line marks the first reference month for live releases; nowcasts before October 2026 are pseudo real time.*
 
 &nbsp;
 
-{{< plotly json="/ITNOW/GDP_Growth_Ncast.json" height="510px" >}}
+{{< itnow_table kind="growth" >}}
 
-*Figure 2: History of the Italian quarterly nominal GDP growth nowcasts using the full model-space Bates-Granger combination and realizations in 2020 chain-linked values. Prior to the latest nowcast, pseudo-real-time nowcasts are displayed. The shaded band is a 90% empirical prediction interval: at each date, the 5th and 95th percentiles of the historical full-combination nowcast errors are added to that date's full-combination nowcast. The interval is therefore not the cross-model distribution of current forecasts and is not mechanically centered around the cross-sectional median nowcast.*
-
-&nbsp;
-
-| QoQ % Change (back) | QoQ % Change (now) | 5% Pr. (now) | 95% Pr. (now) |
-|----------------------|--------------------|---------------|---------------|
-| 0.54                 | 0.21               | -0.90         | 1.39          |
-
-*Table 1: Latest full model-space Bates-Granger nowcast and 90% empirical prediction interval bounds. The bounds are obtained from historical full-combination nowcast errors, not from the cross-sectional distribution of current model nowcasts (see Figure 2).*
+*Table 1: Previous-quarter real GDP growth, latest-quarter nowcast, and empirical 5–95% prediction interval.*
 
 &nbsp;
 
-## 🧭 Reference Quarter Nowcast (Last Update: Q2-2026)
+## GDP Level and Growth
 
 &nbsp;
 
-**Note**: This section is not updated during the quarter; it is intended solely for end-of-quarter nowcasts.
+{{< itnow_plot file="GDP_Level_Ncast.json" >}}
 
-{{< plotly json="/ITNOW/GDP_Level_Ncast.json" height="510px" >}}  
-
-*Figure 3: History of the Italian quarterly nominal GDP level nowcasts using the full model-space Bates-Granger combination and realizations in 2020 chain-linked values (billions of euros). Prior to the latest nowcast, pseudo-real-time nowcasts are displayed.*
+*Figure 2: Quarterly real GDP level nowcasts and realizations in 2020 chain-linked terms (billions of euros). The shaded areas correspond to empirical 90% prediction intervals. The October 2026 line marks the first reference month for live releases; nowcasts before October 2026 are pseudo real time.*
 
 &nbsp;
 
-| QoQ % Change  | YoY % Change | Carry-Over  | Level (Billion €) |
-|---------------|--------------|-------------|--------|
-| 0.42          | 1.22         | 0.70        | 492.53 |
+{{< itnow_table kind="measures" >}}
 
-*Table 2: Nowcasted QoQ and YoY growth rates, carry-over annual effect, and GDP level from the full model-space Bates-Granger combination (see Figure 3). Note that the carry-over annual effect is unavailable for the first quarter of the year, and coincides with the YoY % Change in the last quarter.*
+*Table 2: Real GDP QoQ and YoY percentage changes, annual carry-over growth and level. See the [methodological note on GDP measures]({{< itnow_link file="GDP_MEASURES.pdf" >}}) for more details.*
 
 &nbsp;
 
-## 🧮 Methodological Note
+## Description
 
-Nowcasting methods aim to provide the general public — such as policymakers, media, and investors — with real-time assessments of key economic indicators that would otherwise be subject to significant publication delays. These methods leverage higher-frequency data to forecast indicators that are released less frequently.
+The preliminary estimate of GDP is released by ISTAT, the Italian statistical agency, with a one-month delay after the end of the reference quarter. Nowcasting allows us to assess real GDP growth before that quarterly figure becomes available by exploiting the co-movement among economic indicators at the monthly frequency.
 
-For example, the quarterly Italian GDP figure is published one month after the reference quarter. This means that the Q1 figure (covering January, February, and March) is only released at the beginning of April. However, industrial production — which is a strong predictor of the GDP — is released monthly and can therefore be used to nowcast GDP.
-
-<!--
-The econometric methodology applied in this initiative is based on the working paper *“Skilled nowcast combinations during crises”* (A. Viselli). The corresponding code will soon be made publicly available on GitHub.
--->
+Our nowcasting model is a quarterly bridge equation using industrial-production growth, the EUROCOIN index, and two factors that summarise a small panel of monthly indicators, that enter the equation as quarterly averages. We re-estimate the model each month using an expanding window. The [one-page model note]({{< itnow_link file="MODEL.pdf" >}}) describes the equation, factor aggregation, missing observations and publication delays. The [GDP measures note]({{< itnow_link file="GDP_MEASURES.pdf" >}}) explains how we convert the forecast into the measures in Table 2.
 
 &nbsp;
 
-## 📜 Historical Nowcasts
+## Data, downloads, and links
 
-Click [here](/ITNOW/ITNOW_History.xlsx) to download the historical nowcast series. Note that nowcasts prior to October 2024 are excluded, as they were derived from an out-of-sample exercise.  
+{{< itnow_source >}}
 
-The latest ISTAT release (Q2:2026, preliminary estimate of GDP) can be found [here](https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q2-2026/).
+Available for download:
+- [Real-time nowcast history]({{< itnow_link file="ITNOW_History.xlsx" >}}).
+- [Pseudo real-time nowcast history]({{< itnow_link file="Retrospective_Nowcasts.csv" >}}).
+- [Pseudo real-time performance report]({{< itnow_link file="ITNOW_Performance.pdf" >}}).
 
-An Italian economic calendar is available [here](https://it.tradingeconomics.com/italy/calendar).
-
-<!--
-&nbsp;
-
----
-
-You can **cite** this initiative through the paper: 
-
-A. Viselli, **Skilled nowcast combinations during crises** (R&R at *Studies in Nonlinear Dynamics and Econometrics*).
--->
+The Excel file includes the INFO definitions, DATA descriptions and a NOWCAST sheet. The first live nowcast entry is October 2026, published in November 2026.

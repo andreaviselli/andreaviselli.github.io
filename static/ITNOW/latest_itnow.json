@@ -1,41 +1,66 @@
 {
-  "vintage": "20260915",
-  "eval_end": "2026-08-01",
-  "is_quarter_end": false,
-  "monthly_update": "Aug, 2026",
-  "reference_quarter_update": "Q2-2026",
-  "nowcast_quarter": "Q3-2026",
-  "istat_release": {
-    "quarter": 2,
-    "year": 2026,
-    "line": "The latest ISTAT release (Q2:2026, preliminary estimate of GDP) can be found [here](https://www.istat.it/en/press-release/preliminary-estimate-of-gdp-q2-2026/)."
+  "model": "IP + EUROCOIN + two PCA factors",
+  "model_id": "ip_eurocoin_pca_2",
+  "model_version": "2026-10-17",
+  "code_version": "2026.10.17-bridge-pca2",
+  "reference_month": "September 2026",
+  "reference_date": "2026-09-01",
+  "quarter": "Q3 2026",
+  "produced_at": "2026-10-17T15:09:03+02:00",
+  "production_date": "2026-10-17",
+  "data_vintage": "20261009",
+  "data_date": "09 October 2026",
+  "current": {
+    "qoq_percent": 0.511223158677923,
+    "level_billions": 496.5984135518821,
+    "yoy_percent": 1.3144631758456482,
+    "carry_over_percent": 1.0379510639932699,
+    "lower_percent": -0.2080766586457076,
+    "upper_percent": 1.415303449941729,
+    "previous_qoq_percent": 0.15525838185452054
   },
-  "history_row": {
-    "Time": "2026-09-15",
-    "Quarter": "N/A",
-    "Month": 8,
-    "Year": 2026,
-    "Backcast": 0.0054,
-    "Nowcast": 0.0021,
-    "5Perc": -0.009000000000000001,
-    "95Perc": 0.0139,
-    "Nowcast (YoY)": "N/A",
-    "Preliminary": "N/A"
-  },
-  "tables": {
-    "growth": {
-      "date": "2026-08-01",
-      "QoQ % Change (back)": 0.54,
-      "QoQ % Change (now)": 0.21,
-      "5% Pr. (now)": -0.9,
-      "95% Pr. (now)": 1.39
+  "last_actual_quarter": "2026Q2",
+  "gdp_source": {
+    "rule": "whole_preliminary_if_later_quarter",
+    "source": "national_accounts",
+    "edition": "2026M10",
+    "url": "https://esploradati.istat.it/SDMXWS/rest/data/IT1,163_184_DF_DCCN_PILQ_1,1.0/Q.IT.B1GQ_B_W2_S1.L_2020.Y.2026M10/ALL/?detail=full&startPeriod=1990-01-01&dimensionAtObservation=TIME_PERIOD",
+    "first_quarter": "1996-03-01",
+    "latest_quarter": "2026-06-01",
+    "observed_quarters": 122,
+    "required_first_level_quarter": "1996-03-01",
+    "required_last_released_quarter": "2026-06-01",
+    "retained_first_quarter": "1996-03-01",
+    "retained_last_quarter": "2026-06-01",
+    "retained_quarters": 122,
+    "national_accounts": {
+      "kind": "final",
+      "edition": "2026M10",
+      "url": "https://esploradati.istat.it/SDMXWS/rest/data/IT1,163_184_DF_DCCN_PILQ_1,1.0/Q.IT.B1GQ_B_W2_S1.L_2020.Y.2026M10/ALL/?detail=full&startPeriod=1990-01-01&dimensionAtObservation=TIME_PERIOD",
+      "first_quarter": "1996-03-01",
+      "latest_quarter": "2026-06-01",
+      "observed_quarters": 122,
+      "latest_observation": "2026-07-01",
+      "message": ""
     },
-    "level": {
-      "quarter": "Q3-2026",
-      "QoQ % Change": 0.21,
-      "YoY % Change": null,
-      "Carry Over": null,
-      "Level (Bln \u20ac)": null
+    "preliminary": {
+      "kind": "preliminary",
+      "edition": "2026M7",
+      "url": "https://esploradati.istat.it/SDMXWS/rest/data/IT1,163_156_DF_DCCN_SQCQ_3,1.0/Q.IT.B1GQ_B_W2_S1.L_2020.Y.2026M7_1/ALL/?detail=full&startPeriod=1990-01-01&dimensionAtObservation=TIME_PERIOD",
+      "first_quarter": "1996-03-01",
+      "latest_quarter": "2026-06-01",
+      "observed_quarters": 122,
+      "latest_observation": "2026-07-01",
+      "message": ""
     }
-  }
+  },
+  "interval_n": 81,
+  "band_coverage": 0.7886178861788617,
+  "input_hashes": {
+    "HISTORY/PREDICTION/20261009_bridge.csv": "5cc8eb7ce45c355fbe7025f5cf4a0eac079501d8e0cadb259f2b82791bc5e036",
+    "DATA/GDP_History/GDP20261009.csv": "e583c52d9a5e0951e299646b843213656ba8df65b17f139d45afb4b31f376080"
+  },
+  "series_kind": "retrospective calculation under the current model",
+  "first_live_release_month": "2026-11-01",
+  "first_live_reference_month": "2026-10-01"
 }
