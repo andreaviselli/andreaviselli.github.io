@@ -6,6 +6,12 @@ draft: false
 
 ## Publications
 
+{{< research-entry kind="Journal article" year="2026" title="Robust forecast evaluation under extreme shocks" >}}
+F. Iacone and A. Viselli · *International Journal of Forecasting*
+
+[View the poster](/Poster-Macro26-Roma.pdf) · [Explore the platform](/dm-dashboard/#simulation)
+{{< /research-entry >}}
+
 {{< research-entry kind="Journal article" year="2025" title="Comparing predictive ability in the presence of instability over a very short time" >}}
 F. Iacone, L. Rossini, and A. Viselli · *The Econometrics Journal*
 
@@ -20,10 +26,10 @@ A. Viselli · University of Milan and University of Pavia
 
 ## Working papers
 
-{{< research-entry kind="Working paper" title="Robust forecast evaluation under extreme shocks" >}}
-F. Iacone and A. Viselli
+{{< research-entry kind="Working paper" title="Power Play: How Structural Shocks Drive European Electricity Markets" >}}
+F. Ravazzolo, L. Rossini, and A. Viselli
 
-[View the poster](/Poster-Macro26-Roma.pdf) · [Explore the platform](/dm-dashboard/#simulation)
+[View the presentation](/PowerPlay-BdI26-Rome.pdf)
 {{< /research-entry >}}
 
 {{< research-entry kind="Working paper" title="Modeling European electricity market integration during turbulent times" >}}

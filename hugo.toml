@@ -46,14 +46,6 @@ languageName = "English"
     name = "ITNOW"
     url = "/itnow/"
     title = ""
-    [[menu.main]]
-    weight = 4
-    identifier = "ETS4"
-    pre = ""
-    post = ""
-    name = "ETS4"
-    url = "/ets4/"
-    title = ""
   [[menu.main]]
     weight = 5
     identifier = "about"
